@@ -1,0 +1,91 @@
+.xui-list{
+    width: 100%;
+    background: #e4e2e2;
+    padding-top: 15px;
+
+    .xui-list-item{
+        background: #fff;
+        text-align: left;
+        padding: 15px 15px 10px;
+        margin-bottom: 15px;
+
+        .item-meta{
+            position: relative;
+            height: 28px;
+
+            .icon-id{
+                width: 28px;
+                height: 28px;
+                line-height: 28px;
+                position: absolute;
+                top: -6px;
+                background: #1890ff;
+                border-radius: 50%;
+                color: #fff;
+                text-align: center;
+                font-size: 13px;
+            }
+
+            .meta-title{
+                text-indent: 38px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .area{
+                background: #FF9800;
+                color: #fff;
+                border-radius: 2px;
+                font-size: 12px;
+                padding: 5px 10px;
+                position: absolute;
+                right: 30px;
+                top: -2px;
+            }
+            .location{
+                height: 18px;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+
+        .item-content{
+            line-height: 2;
+
+            .meta-line{
+                display: flex;
+                & > div{
+                    flex: 1;
+                }
+                .time{
+                    flex-basis: 100px;
+                }
+            }
+
+            p > div{
+                display: inline;
+                margin-right: 30px;
+                font-size: 14px;
+            }
+            p.description{
+                font-size: 13px;
+            }
+
+            .price{
+                color: red;
+            }
+        }
+    }
+}
+
+
+@media all and (min-width: 768px){
+    .xui-list{
+        background: transparent;
+        .xui-list-item{
+            margin-bottom: 0;
+            border-bottom: 1px solid #cfcfcf;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.layout-yikatong{
+    background-image: url('./img/fengjing.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+
+    .ant-layout-header{
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        background: #fff;
+        padding: 0 15px;
+    }
+    .ant-layout-footer{
+        height: 35px;
+        line-height: 35px;
+        padding: 0;
+        margin-top: -35px;
+        text-align: center;
+        background: transparent;
+        color: white;
+    }
+    .main-content{
+        width:100%;
+        margin: 0;
+        padding: 64px 0 35px;
+
+        .ant-spin{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -10px;
+            margin-top: -12px;
+        }
+    }
+}
+.main-cardant-drawer-content-wrapper{
+    padding-top: 64px;
+}
+
+.ant-drawer-body{
+    height: 100%;
+}
+
+.hidden-sm{display: none;}
+.hidden-md{display: block;}
+
+
+.filter-box-drawer{
+    .ant-drawer-content-wrapper{
+        width: 600px;
+        max-width: 90%;
+    }
+}
+
+@media all and (min-width: 768px){
+    .hidden-sm{display: block;}
+    .hidden-md{display: none;}      
+
+    .layout-yikatong{
+        background-size: cover;
+        .ant-layout-header{
+            padding: 0 35px;
+        }
+
+        .main-content{
+            width: 100%;
+            max-width: 800px;
+            margin: 25px auto 25px;
+        }
+    }
+}

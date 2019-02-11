@@ -1,0 +1,40 @@
+.filter-box{
+    position: relative;
+    height: 100%;
+
+    .filter-box-body{
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    .filter-box-footer{
+        position: absolute;
+        bottom: 0;
+        height: 50px;
+    }
+
+    .filter-group{
+        margin-bottom: 35px;
+    }
+
+    .filter-group-title{
+        font-weight: bold;
+        line-height: 30px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .ant-checkbox-group-item{
+        width: 110px;
+    }
+}
+
+@media all and (max-width: 768px){
+    .filter-box{
+        .ant-checkbox-group-item{
+            width: 75px;
+            white-space: nowrap;
+        }
+    }
+}
+
+
