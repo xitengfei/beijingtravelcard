@@ -1,5 +1,36 @@
 .sidebar-content{
-    padding: 24px;
+    box-sizing: border-box;
+    height: 100%;
+    padding-bottom: 64px;
+    
+    .filters{
+        height: 100%;
+        overflow-y: auto;
+        padding: 12px 24px;
+    }
+
+    .btn-groups{
+        position: fixed;
+        bottom: 0;
+        padding: 12px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        .am-button{
+            width: 33%;
+            max-width: 136px;
+            box-sizing: border-box;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 20px;
+            
+            &:before{
+                border-radius: 40px;
+            }
+        }
+    }
 
     .areas-list{
         width: 300px;
@@ -23,9 +54,10 @@
     position: relative;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-  }
-  .my-drawer .am-drawer-sidebar {
-    background-color: #fff;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-  }
+    
+    .am-drawer-sidebar {
+        background-color: #fff;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}

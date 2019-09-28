@@ -36,20 +36,27 @@ export default class extends React.Component<Props, State>{
 
         return (
             <div className="sidebar-content">
-                <p className="sub-title">选择区域</p>
-                <div className="areas-list">
-                    {areas.map((area:Area) => {
-                        return (
-                            <Button 
-                                inline
-                                key={area.id}
-                                type="ghost"
-                                size="small"
-                            >
-                                {area.name}
-                            </Button>
-                        )
-                    })}
+                <div className="filters">
+                    <p className="sub-title">选择区域</p>
+                    <div className="areas-list">
+                        {areas.map((area:Area) => {
+                            return (
+                                <Button 
+                                    inline
+                                    key={area.id}
+                                    type="ghost"
+                                    size="small"
+                                >
+                                    {area.name}
+                                </Button>
+                            )
+                        })}
+                    </div>
+                </div>
+
+                <div className="btn-groups">
+                    <Button inline style={{ marginRight: '16px' }}>重置</Button>
+                    <Button type="primary" inline >确认</Button>
                 </div>
             </div>
         )

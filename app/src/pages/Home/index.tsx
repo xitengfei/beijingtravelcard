@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import { ListView } from 'antd-mobile';
 import NavBar from "./Nav";
 import SideBar from "./SideBar";
+import List from "../../components/List";
+
 import * as homeActions from "../../store/home/actions";
 
 import Area from '../../models/Area';
@@ -72,7 +74,7 @@ class Home extends React.Component<Props, State> {
     renderRow = (rowData: any, sectionId: any, rowId: any) => {
         return (
             <div key={rowId} className="area-item">
-                {rowData.name}
+                <List.Item {...rowData} />
             </div>
         )
     }
@@ -95,7 +97,7 @@ class Home extends React.Component<Props, State> {
                             ref={this.lv}
                             dataSource={dataSource}
                             renderRow={this.renderRow}
-                            className="area-list"
+                            className="area-list xui-list"
                             pageSize={20}
                             useBodyScroll
                         />
