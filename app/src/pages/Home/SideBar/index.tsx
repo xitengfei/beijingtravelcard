@@ -1,5 +1,5 @@
 import React, { ReactText, ReactNode } from 'react';
-import { Drawer, Button } from 'antd-mobile';
+import { Drawer, Button, DatePicker, List } from 'antd-mobile';
 import Area from '../../../models/Area';
 import "./index.less";
 
@@ -12,7 +12,14 @@ interface Props{
 interface State{
     open: boolean,
     areas?: ReactText[],
+    startDate: Date,
+    endDate: Date,
 }
+
+const nowTimeStamp = Date.now();
+const now = new Date(nowTimeStamp);
+// GMT is not currently observed in the UK. So use UTC now.
+const utcNow = new Date(now.getTime() + (now.getTimezoneOffset() * 60000));
 
 export default class extends React.Component<Props, State>{
     constructor(props: Props){
@@ -20,6 +27,8 @@ export default class extends React.Component<Props, State>{
         this.state = {
             open: false,
             areas: [],
+            startDate: now,
+            endDate: now,
         }
     }
 
@@ -51,6 +60,31 @@ export default class extends React.Component<Props, State>{
                                 </Button>
                             )
                         })}
+                    </div>
+
+                    <p className="sub-title">时间范围</p>
+                    <div className="period">
+                        <List className="date-picker-list" style={{ backgroundColor: 'white' }}>
+                            <DatePicker
+                                mode="date"
+                                title="开始日期"
+                                extra="Optional"
+                                // value={this.state.date}
+                                // onChange={date => this.setState({ date })}
+                            >
+                                <List.Item arrow="horizontal">起始</List.Item>
+                            </DatePicker>
+
+                            <DatePicker
+                                mode="date"
+                                title="结束日期"
+                                extra="Optional"
+                                // value={this.state.date}
+                                // onChange={date => this.setState({ date })}
+                            >
+                                <List.Item arrow="horizontal">截止</List.Item>
+                            </DatePicker>
+                        </List>
                     </div>
                 </div>
 
