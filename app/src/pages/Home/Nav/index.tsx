@@ -5,14 +5,22 @@ import "./index.less";
 
 interface Props{
     title: string,
-    onRightClick: VoidFunction,
+    onRightClick(): void,
+    onSearch(keyword: string): void,
 }
 
-export default class extends React.Component<Props, object>{
+interface State{
+    
+}
+
+export default class extends React.Component<Props, State>{
     autoFocusInst: any;
 
     constructor(props: Props){
         super(props);
+
+        this.state = {
+        };
     }
 
     componentDidMount() {
@@ -20,7 +28,7 @@ export default class extends React.Component<Props, object>{
     }
 
     render(){
-        const {title, onRightClick} = this.props;
+        const {title, onRightClick, onSearch} = this.props;
         return(
             <div
                 className="headerNav"
@@ -32,7 +40,11 @@ export default class extends React.Component<Props, object>{
                         <Icon key="1" type="ellipsis" onClick={onRightClick} />,
                     ]}
                 >{title}</NavBar>
-                <SearchBar placeholder="自动获取光标" ref={ref => this.autoFocusInst = ref} />
+                <SearchBar 
+                    placeholder="自动获取光标" 
+                    ref={ref => this.autoFocusInst = ref}
+                    onSubmit={onSearch}
+                />
             </div>
         )
     }

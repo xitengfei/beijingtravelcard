@@ -24,6 +24,7 @@ type Props = {
 
 type State = {
     dataSource: any;
+    keyword: string;
 };
 
 class Home extends React.Component<Props, State> {
@@ -45,7 +46,8 @@ class Home extends React.Component<Props, State> {
         });
 
         this.state = {
-            dataSource: dataSource
+            dataSource: dataSource,
+            keyword: '',
         };
     }
 
@@ -71,6 +73,18 @@ class Home extends React.Component<Props, State> {
         this.sideBarRef && this.sideBarRef.current.onOpenChange();
     }
 
+    handleSearch = (value: string) => {
+        // this.setState({keyword: value});
+        const {scenics} : Props = this.props;
+        const result = scenics.filter(item => {
+            return item.name.indexOf(value) > -1 ||
+                item.area_name.indexOf(value) > -1;
+        })
+        this.setState({
+            dataSource: this.state.dataSource.cloneWithRows(result)
+        })
+    }
+
     renderRow = (rowData: any, sectionId: any, rowId: any) => {
         return (
             <div key={rowId} className="area-item">
@@ -91,6 +105,7 @@ class Home extends React.Component<Props, State> {
                     <NavBar
                         title={'京津冀一卡通'}
                         onRightClick={this.openSideBar}
+                        onSearch={this.handleSearch}
                     />
                     <div className="page-content">
                         <ListView 
