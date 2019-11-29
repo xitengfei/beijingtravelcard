@@ -1,7 +1,5 @@
-import moment from 'moment'
-import {
-    simpleDeepClone
-} from '@/tools/objectHelper'
+import moment from 'moment';
+import _ from 'lodash';
 
 class ScenicsFilter{
 
@@ -34,7 +32,7 @@ class ScenicsFilter{
     };
 
     filterItems = (items, filters) => {
-        let newItems = simpleDeepClone(items);
+        let newItems = _.cloneDeep(items);
 
         if(filters.keyword){
             newItems = this.keywordFilter(newItems, filters.keyword);
