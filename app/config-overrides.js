@@ -6,10 +6,6 @@ const {
 } = require("customize-cra");
 const path = require("path");
 
-function resolve (dir) {
-    return path.join(__dirname, dir)
-}
-
 module.exports = override(
     fixBabelImports('import', {
         libraryName: 'antd-mobile',
@@ -21,6 +17,6 @@ module.exports = override(
         localIdentName: '[local]--[hash:base64:5]'
     }),
     addWebpackAlias({
-        ['@'] : resolve("src")
+        '@' : path.resolve(__dirname, 'src')
     })
 )

@@ -4,15 +4,12 @@ import { connect } from 'react-redux';
 import { ListView } from 'antd-mobile';
 import NavBar from "./Nav";
 import SideBar from "./SideBar";
-import List from "../../components/List";
-
-import * as homeActions from "../../store/home/actions";
-
-import Area from '../../models/Area';
-import Scenic from '../../models/Scenic';
-
+import List from "@/components/List";
+import * as homeActions from "@/store/home/actions";
+import Area from '@/models/Area';
+import Scenic from '@/models/Scenic';
 // types
-import {RootState} from '../../store';
+import {RootState} from '@/store';
 import "./index.less";
 
 type Props = {

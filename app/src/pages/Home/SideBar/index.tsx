@@ -1,6 +1,6 @@
 import React, { ReactText, ReactNode } from 'react';
 import { Drawer, Button, DatePicker, List } from 'antd-mobile';
-import Area from '../../../models/Area';
+import Area from '@/models/Area';
 import "./index.less";
 
 interface Props{
