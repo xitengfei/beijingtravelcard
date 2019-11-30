@@ -92,12 +92,15 @@ class Home extends React.Component<Props, State> {
 
     render() {
         const {dataSource} = this.state;
+        const {actions} = this.props;
+
         return (
             <div className="page-home">
                 <SideBar 
                     title={'搜索'}
                     ref={this.sideBarRef}
                     areas={this.props.areas}
+                    applyFilters={actions.applyFilters}
                 >
                     <NavBar
                         title={'京津冀一卡通'}
@@ -121,12 +124,12 @@ class Home extends React.Component<Props, State> {
 }
 
 const mapStateToProps = (state: RootState, ownProps: Props) => {
-    const {areas, scenics} = state.homeStore;
+    const {areas, filteredScenics} = state.homeStore;
 
     return {
         title: '',
         areas,
-        scenics,
+        scenics: filteredScenics,
     };
 }
 

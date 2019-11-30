@@ -1,7 +1,9 @@
-import React, { ReactText, ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import { Drawer, Button, DatePicker, List } from 'antd-mobile';
 import BtnCheckGroup from '@/components/BtnCheckGroup';
 import Area from '@/models/Area';
+import Filters from '@/models/Filters';
+import _ from "lodash";
 import "./index.less";
 
 interface Props{
@@ -9,6 +11,7 @@ interface Props{
     title: string,
     areas: Array<Area>,
     ref: React.RefObject<any>,
+    applyFilters: (filters: Filters) => void
 }
 interface State{
     open: boolean,
@@ -35,6 +38,15 @@ export default class extends React.Component<Props, State>{
 
     componentDidMount() {
         
+    }
+
+    componentWillUpdate(nextProps: Props, nextState: State){
+        if(!_.isEqual(this.state, nextState)){
+            const {checkedAreaIds} = nextState;
+            this.props.applyFilters({
+                areas: checkedAreaIds
+            })
+        }
     }
 
     onOpenChange = () => {

@@ -1,5 +1,4 @@
 import moment from 'moment';
-import _ from 'lodash';
 
 class ScenicsFilter{
 
@@ -15,15 +14,12 @@ class ScenicsFilter{
         })
     };
 
-    momentFilter = (items, period) => {
-        const format = 'YYYY.M.D'
-        return items.filter(item => {
-            console.log(item);
-            if(!item.start || !item.end) return false;
+    momentFilter = (items, start, end) => {
+        const format = 'YYYY.M.D';
+        if(!start && !end) return items;
 
-            if(moment(item.start, format).isSameOrBefore(period.end) && 
-            moment(item.end, format).isSameOrAfter(period.start))
-            {
+        return items.filter(item => {
+            if(moment(item.start, format).isSameOrBefore(end) && moment(item.end, format).isSameOrAfter(start)){
                 return true;
             }else{
                 return false;
@@ -32,18 +28,18 @@ class ScenicsFilter{
     };
 
     filterItems = (items, filters) => {
-        let newItems = _.cloneDeep(items);
+        let newItems = items.slice();
 
         if(filters.keyword){
             newItems = this.keywordFilter(newItems, filters.keyword);
         }
         
-        if(filters.checkedAreas && filters.checkedAreas.length){
-            newItems = this.areaFilter(newItems, filters.checkedAreas);
+        if(filters.areas && filters.areas.length){
+            newItems = this.areaFilter(newItems, filters.areas);
         }
 
-        if(filters.period && filters.period.start && filters.period.end){
-            newItems = this.momentFilter(newItems, filters.period);
+        if(filters.start && filters.end){
+            newItems = this.momentFilter(newItems, filters.start, filters.end);
         }
 
         return newItems;
