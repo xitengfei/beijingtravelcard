@@ -1,9 +1,9 @@
 import {Dispatch} from 'redux';
-import * as actionType from './action-type';
-import ScenicsFilter from '@/tools/ScenicsFilter';
+import ScenicsFilter from '@/utils/ScenicsFilter';
 import API from '@/api/api';
 
 import Home from './type';
+import {RootState} from '@/store/';
 import Filters from '@/models/Filters';
 import Scenic from '@/models/Scenic';
 
@@ -39,19 +39,23 @@ export const fetchScenics = function(){
     }
 }
 
-export const setFilteringState = (isFiltering: boolean) => ({
+export const setFiltering = (isFiltering: boolean) => ({
     type: HOME_SET_FILTERING_STATE,
     payload: isFiltering,
 })
 
-export const applyFiltersUpdate = (filters: Filters) => (dispatch: Dispatch, getState: any) =>  {
+/**
+ * Apply Filters on scenics
+ * @param filters 
+ */
+export const applyFilters = (filters: Filters) => (dispatch: Dispatch, getState: () => RootState) =>  {
     const {
         homeStore: {
             scenics
         }
     } = getState();
 
-    dispatch(setFilteringState(true));
+    dispatch(setFiltering(true));
 
     setTimeout(()=>{
         // start filtering
@@ -60,30 +64,34 @@ export const applyFiltersUpdate = (filters: Filters) => (dispatch: Dispatch, get
 
         dispatch({
             type: HOME_SET_FILTERED_SCENICS,
-            scenics: filteredScenics
+            payload: filteredScenics
         })
 
-        dispatch(setFilteringState(false));
+        dispatch(setFiltering(false));
     }, 1000)
 }
 
-
+/**
+ * export all action creators
+ */
 export default {
     fetchAreas,
     fetchScenics,
-    setFilteringState,
-    applyFiltersUpdate,
+    setFiltering,
+    applyFilters,
 }
-
 
 // ===============================
 // Action Handlers
 // ===============================
-type Action = {
-    type: string,
-    payload: any
-};
+type Action = {type: string, payload: any};
 export const ACTION_HANDLERS = {
     [HOME_SET_YIKATONG_SCENICS]: (state: Home, {payload}: Action): Home => Object.assign({}, state, {scenics: payload}),
-    [HOME_SET_YIKATONG_AREAS]: (state: Home, {payload}: Action): Home => Object.assign({}, state, {areas: payload})
+    [HOME_SET_YIKATONG_AREAS]: (state: Home, {payload}: Action): Home => Object.assign({}, state, {areas: payload}),
+    [HOME_SET_FILTERED_SCENICS]: (state: Home, {payload}: Action): Home => {
+        return Object.assign({}, state, {filteredScenics: payload});
+    },
+    [HOME_SET_FILTERING_STATE]: (state: Home, {payload}: Action): Home => {
+        return Object.assign({}, state, {isFiltering: payload});
+    }
 }

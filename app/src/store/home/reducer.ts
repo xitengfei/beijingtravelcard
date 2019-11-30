@@ -6,6 +6,7 @@ const initState: Home = {
     title:'',
     areas:[],
     scenics:[],
+    filteredScenics:[],
     isFiltering: false,
 };
 

@@ -1,5 +1,6 @@
 import React, { ReactText, ReactNode } from 'react';
 import { Drawer, Button, DatePicker, List } from 'antd-mobile';
+import BtnCheckGroup from '@/components/BtnCheckGroup';
 import Area from '@/models/Area';
 import "./index.less";
 
@@ -11,7 +12,7 @@ interface Props{
 }
 interface State{
     open: boolean,
-    areas?: ReactText[],
+    checkedAreaIds: Array<string>,
     startDate: Date,
     endDate: Date,
 }
@@ -26,7 +27,7 @@ export default class extends React.Component<Props, State>{
         super(props);
         this.state = {
             open: false,
-            areas: [],
+            checkedAreaIds: [],
             startDate: now,
             endDate: now,
         }
@@ -40,26 +41,30 @@ export default class extends React.Component<Props, State>{
         this.setState({ open: !this.state.open });
     }
 
+    handleAreaCheck = (areaId: string, check: boolean) => {
+        let checkedAreaIds = this.state.checkedAreaIds.slice();
+        if(check){
+            checkedAreaIds.push(areaId);
+        }else{
+            checkedAreaIds = checkedAreaIds.filter(id => areaId !== id);
+        }
+        this.setState({checkedAreaIds});
+    }
+
     renderContent = () => {
         const {areas}:Props = this.props;
+        const {checkedAreaIds} = this.state;
 
         return (
             <div className="sidebar-content">
                 <div className="filters">
                     <p className="sub-title">选择区域</p>
                     <div className="areas-list">
-                        {areas.map((area:Area) => {
-                            return (
-                                <Button 
-                                    inline
-                                    key={area.id}
-                                    type="ghost"
-                                    size="small"
-                                >
-                                    {area.name}
-                                </Button>
-                            )
-                        })}
+                        <BtnCheckGroup 
+                            options={areas.map(area => ({code: area.id, name: area.name}))}
+                            checkedCodes={checkedAreaIds}
+                            onCheck={this.handleAreaCheck}
+                        />
                     </div>
 
                     <p className="sub-title">时间范围</p>

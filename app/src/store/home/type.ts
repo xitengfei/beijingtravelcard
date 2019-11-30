@@ -5,5 +5,6 @@ export default interface Home{
     title: string,
     areas: Array<Area>,
     scenics: Array<Scenic>,
+    filteredScenics: Array<Scenic>, // scenics to show on list view
     isFiltering: false
 }
