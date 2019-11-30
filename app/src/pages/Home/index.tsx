@@ -36,7 +36,7 @@ class Home extends React.Component<Props, State> {
 
         const dataSource = new ListView.DataSource({
             getRowData: (dataBlob:any, sectionID: string, rowID: string) => {
-                console.log(dataBlob, sectionID, rowID);
+                // console.log(dataBlob, sectionID, rowID);
                 return dataBlob[sectionID][rowID];
             },
             rowHasChanged: (row1:any, row2:any) => row1 !== row2,
@@ -55,14 +55,9 @@ class Home extends React.Component<Props, State> {
 
     componentWillReceiveProps(nextProps: Props){
         const {scenics} : Props = nextProps;
-        let dataBlob:any = {};
-        scenics.forEach((scenic: Scenic, index: number) => {
-            dataBlob[index] = scenic;
-        });
-
-        const dataSource = this.state.dataSource.cloneWithRows(dataBlob);
+        const {dataSource} = this.state;
         this.setState({
-            dataSource
+            dataSource: dataSource.cloneWithRows(scenics)
         })
     }
 
@@ -71,15 +66,8 @@ class Home extends React.Component<Props, State> {
     }
 
     handleSearch = (value: string) => {
-        // this.setState({keyword: value});
-        const {scenics} : Props = this.props;
-        const result = scenics.filter(item => {
-            return item.name.indexOf(value) > -1 ||
-                item.area_name.indexOf(value) > -1;
-        })
-        this.setState({
-            dataSource: this.state.dataSource.cloneWithRows(result)
-        })
+        const {actions}: Props = this.props;
+        actions.applyFilters({keyword: value});
     }
 
     renderRow = (rowData: any, sectionId: any, rowId: any) => {

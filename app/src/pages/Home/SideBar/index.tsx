@@ -16,8 +16,8 @@ interface Props{
 interface State{
     open: boolean,
     checkedAreaIds: Array<string>,
-    startDate: Date,
-    endDate: Date,
+    startDate: Date | null,
+    endDate: Date | null,
 }
 
 const nowTimeStamp = Date.now();
@@ -63,6 +63,14 @@ export default class extends React.Component<Props, State>{
         this.setState({checkedAreaIds});
     }
 
+    handleResetBtnClick = () => {
+        this.setState({
+            checkedAreaIds: [],
+            startDate: null,
+            endDate: null,
+        });
+    }
+
     renderContent = () => {
         const {areas}:Props = this.props;
         const {checkedAreaIds} = this.state;
@@ -106,8 +114,16 @@ export default class extends React.Component<Props, State>{
                 </div>
 
                 <div className="btn-groups">
-                    <Button inline style={{ marginRight: '16px' }}>重置</Button>
-                    <Button type="primary" inline >确认</Button>
+                    <Button 
+                        inline 
+                        style={{ marginRight: '16px' }}
+                        onClick={this.handleResetBtnClick}
+                    >重置</Button>
+                    <Button 
+                        type="primary" 
+                        inline
+                        onClick={this.onOpenChange}
+                    >确认</Button>
                 </div>
             </div>
         )

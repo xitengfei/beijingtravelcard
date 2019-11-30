@@ -4,7 +4,7 @@ class ScenicsFilter{
 
     keywordFilter = (items, keyword) => {
         return items.filter(item => { 
-            return item.name.indexOf(keyword) > -1 
+            return item.name.indexOf(keyword) > -1 || item.area_name.indexOf(keyword) > -1;
         })
     };
 
