@@ -5,7 +5,7 @@ import { ListView } from 'antd-mobile';
 import NavBar from "./Nav";
 import SideBar from "./SideBar";
 import List from "@/components/List";
-import * as homeActions from "@/store/home/actions";
+import homeActions from "@/store/home/actions";
 import Area from '@/models/Area';
 import Scenic from '@/models/Scenic';
 // types
