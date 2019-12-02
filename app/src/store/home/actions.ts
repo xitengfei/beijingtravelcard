@@ -54,9 +54,9 @@ export const fetchScenics = function(){
     }
 }
 
-export const setFiltering = (isFiltering: boolean) => ({
+export const setLoading = (isLoading: boolean) => ({
     type: HOME_SET_FILTERING_STATE,
-    payload: isFiltering,
+    payload: isLoading,
 })
 
 /**
@@ -70,7 +70,7 @@ export const applyFilters = (filters: Filters) => (dispatch: Dispatch, getState:
         }
     } = getState();
 
-    dispatch(setFiltering(true));
+    dispatch(setLoading(true));
 
     setTimeout(()=>{
         // start filtering
@@ -82,7 +82,7 @@ export const applyFilters = (filters: Filters) => (dispatch: Dispatch, getState:
             payload: filteredScenics
         })
 
-        dispatch(setFiltering(false));
+        dispatch(setLoading(false));
     }, 1000)
 }
 
@@ -92,7 +92,7 @@ export const applyFilters = (filters: Filters) => (dispatch: Dispatch, getState:
 export default {
     fetchAreas,
     fetchScenics,
-    setFiltering,
+    setLoading,
     applyFilters,
 }
 
@@ -107,6 +107,6 @@ export const ACTION_HANDLERS = {
         return Object.assign({}, state, {filteredScenics: payload});
     },
     [HOME_SET_FILTERING_STATE]: (state: Home, {payload}: Action): Home => {
-        return Object.assign({}, state, {isFiltering: payload});
+        return Object.assign({}, state, {isLoading: payload});
     }
 }

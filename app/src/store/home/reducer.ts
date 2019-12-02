@@ -7,7 +7,7 @@ const initState: Home = {
     areas:[],
     scenics:[],
     filteredScenics:[],
-    isFiltering: false,
+    isLoading: false,
 };
 
 export default genReducer(initState, ACTION_HANDLERS)

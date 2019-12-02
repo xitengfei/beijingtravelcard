@@ -1,7 +1,7 @@
 import * as React from "react";
 import { bindActionCreators, Dispatch } from 'redux';
 import { connect } from 'react-redux';
-import { ListView } from 'antd-mobile';
+import { ListView, ActivityIndicator } from 'antd-mobile';
 import NavBar from "./Nav";
 import SideBar from "./SideBar";
 import List from "@/components/List";
@@ -17,6 +17,7 @@ type Props = {
     areas: Array<Area>;
     scenics: Array<Scenic>;
     actions: any;
+    isLoading: boolean;
 };
 
 type State = {
@@ -80,7 +81,7 @@ class Home extends React.Component<Props, State> {
 
     render() {
         const {dataSource} = this.state;
-        const {actions} = this.props;
+        const {isLoading, actions} = this.props;
 
         return (
             <div className="page-home">
@@ -106,18 +107,23 @@ class Home extends React.Component<Props, State> {
                         />
                     </div>
                 </SideBar>
+                <ActivityIndicator
+                    toast
+                    animating={isLoading}
+                />
             </div>
         );
     }
 }
 
 const mapStateToProps = (state: RootState, ownProps: Props) => {
-    const {areas, filteredScenics} = state.homeStore;
+    const {areas, filteredScenics, isLoading} = state.homeStore;
 
     return {
         title: '',
         areas,
         scenics: filteredScenics,
+        isLoading
     };
 }
 
