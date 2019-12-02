@@ -16,8 +16,8 @@ interface Props{
 interface State{
     open: boolean,
     checkedAreaIds: Array<string>,
-    startDate: Date | null,
-    endDate: Date | null,
+    startDate: Date | undefined,
+    endDate: Date | undefined,
 }
 
 const nowTimeStamp = Date.now();
@@ -42,9 +42,11 @@ export default class extends React.Component<Props, State>{
 
     componentWillUpdate(nextProps: Props, nextState: State){
         if(!_.isEqual(this.state, nextState)){
-            const {checkedAreaIds} = nextState;
+            const {checkedAreaIds, startDate, endDate} = nextState;
             this.props.applyFilters({
-                areas: checkedAreaIds
+                areas: checkedAreaIds,
+                start: startDate,
+                end: endDate
             })
         }
     }
@@ -66,8 +68,8 @@ export default class extends React.Component<Props, State>{
     handleResetBtnClick = () => {
         this.setState({
             checkedAreaIds: [],
-            startDate: null,
-            endDate: null,
+            startDate: undefined,
+            endDate: undefined,
         });
     }
 
@@ -94,8 +96,8 @@ export default class extends React.Component<Props, State>{
                                 mode="date"
                                 title="开始日期"
                                 extra="Optional"
-                                // value={this.state.date}
-                                // onChange={date => this.setState({ date })}
+                                value={this.state.startDate}
+                                onChange={date => this.setState({ startDate: date })}
                             >
                                 <List.Item arrow="horizontal">起始</List.Item>
                             </DatePicker>
@@ -104,8 +106,8 @@ export default class extends React.Component<Props, State>{
                                 mode="date"
                                 title="结束日期"
                                 extra="Optional"
-                                // value={this.state.date}
-                                // onChange={date => this.setState({ date })}
+                                value={this.state.endDate}
+                                onChange={date => this.setState({ endDate: date })}
                             >
                                 <List.Item arrow="horizontal">截止</List.Item>
                             </DatePicker>

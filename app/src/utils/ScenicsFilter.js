@@ -1,6 +1,17 @@
 import moment from 'moment';
 
 class ScenicsFilter{
+    isDateOverLaps(startDate, endDate, source){
+        const format = 'YYYY.M.D';
+        const t1 = moment(source[0], format);
+        const t2 = moment(source[1], format);
+ 
+        if(t1.isSameOrBefore(endDate) && t2.isSameOrAfter(startDate)){
+            return true;
+        }else{
+            return false;
+        }
+    }
 
     keywordFilter = (items, keyword) => {
         return items.filter(item => { 
@@ -15,16 +26,21 @@ class ScenicsFilter{
     };
 
     momentFilter = (items, start, end) => {
-        const format = 'YYYY.M.D';
         if(!start && !end) return items;
 
         return items.filter(item => {
-            if(moment(item.start, format).isSameOrBefore(end) && moment(item.end, format).isSameOrAfter(start)){
-                return true;
-            }else{
-                return false;
+            let {periods = []} = item;
+            if(!item.dates) return true;
+
+            let match = false;
+            for(let period of periods){
+                if(this.isDateOverLaps(start, end, period)){
+                    match = true;
+                    break;
+                }
             }
-        })
+            return match;
+        });
     };
 
     filterItems = (items, filters) => {

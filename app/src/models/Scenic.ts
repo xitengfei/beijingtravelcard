@@ -4,6 +4,7 @@ export default interface Scenic{
     area_id: string,
     area_name: string,
     dates: string,
+    periods: Array<string[]>,
     level: string,
     limit_type: string,
     notice: string,

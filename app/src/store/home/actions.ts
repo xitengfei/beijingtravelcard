@@ -31,7 +31,22 @@ export const fetchAreas = function(){
 
 export const fetchScenics = function(){
     return async (dispatch:Dispatch): Promise<void> => {
-        const scenics = await API.getScenics();
+        let scenics = await API.getScenics();
+        scenics = scenics.map((scenic: Scenic) => {
+            scenic.periods = [];
+            let i = 0;
+            const dates: Array<string> = scenic.dates.split('-');
+            while(i < dates.length){
+                if(dates[i] && dates[i+1]){
+                    scenic.periods.push([dates[i], dates[i+1]]);
+                }
+                i += 2;
+            }
+            return scenic;
+        });
+
+        console.log(scenics);
+
         dispatch({
             type: HOME_SET_YIKATONG_SCENICS,
             payload: scenics
