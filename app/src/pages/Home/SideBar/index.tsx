@@ -40,32 +40,39 @@ export default class extends React.Component<Props, State>{
         
     }
 
-    componentWillUpdate(nextProps: Props, nextState: State){
-        if(!_.isEqual(this.state, nextState)){
-            const {checkedAreaIds, startDate, endDate} = nextState;
-            this.props.applyFilters({
-                areas: checkedAreaIds,
-                start: startDate,
-                end: endDate
-            })
-        }
-    }
+    // componentWillUpdate(nextProps: Props, nextState: State){
+    //     if(!_.isEqual(this.state, nextState)){
+    //         const {checkedAreaIds, startDate, endDate} = nextState;
+    //         this.props.applyFilters({
+    //             areas: checkedAreaIds,
+    //             start: startDate,
+    //             end: endDate
+    //         })
+    //     }
+    // }
 
     onOpenChange = () => {
         this.setState({ open: !this.state.open });
     }
 
-    handleAreaCheck = (areaId: string, check: boolean) => {
-        let checkedAreaIds = this.state.checkedAreaIds.slice();
-        if(check){
-            checkedAreaIds.push(areaId);
-        }else{
-            checkedAreaIds = checkedAreaIds.filter(id => areaId !== id);
-        }
+    handleAreaChange = (checkedAreaIds: Array<string>) => {
         this.setState({checkedAreaIds});
     }
 
-    handleResetBtnClick = () => {
+    handleOk = () => {
+        this.setState({
+            open: false
+        });
+
+        const {checkedAreaIds, startDate, endDate} = this.state;
+        this.props.applyFilters({
+            areas: checkedAreaIds,
+            start: startDate,
+            end: endDate
+        });
+    }
+
+    handleReset = () => {
         this.setState({
             checkedAreaIds: [],
             startDate: undefined,
@@ -85,7 +92,7 @@ export default class extends React.Component<Props, State>{
                         <BtnCheckGroup 
                             options={areas.map(area => ({code: area.id, name: area.name}))}
                             checkedCodes={checkedAreaIds}
-                            onCheck={this.handleAreaCheck}
+                            onChange={this.handleAreaChange}
                         />
                     </div>
 
@@ -119,12 +126,12 @@ export default class extends React.Component<Props, State>{
                     <Button 
                         inline 
                         style={{ marginRight: '16px' }}
-                        onClick={this.handleResetBtnClick}
+                        onClick={this.handleReset}
                     >重置</Button>
                     <Button 
                         type="primary" 
                         inline
-                        onClick={this.onOpenChange}
+                        onClick={this.handleOk}
                     >确认</Button>
                 </div>
             </div>

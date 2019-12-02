@@ -10,15 +10,32 @@ interface Option{
 interface Props{
     options: Array<Option>,
     checkedCodes: Array<string>,
-    onCheck: (code: string, check: boolean) => void
+    onChange: (checkedCodes: Array<string>) => void
 }
 
 const BtnCheckGroup = function(props: Props){
-    const {options, checkedCodes, onCheck} = props;
+    const {options, checkedCodes, onChange} = props;
+
+    let allOptions = [{code: 'var$allselected', name:'不限'}].concat(options);
+
+    const handleCheck = (code: string, check: boolean) => {
+        let nextCheckedCodes = checkedCodes.slice();
+        
+        // 不限
+        if('var$allselected' === code) {
+            nextCheckedCodes = [code];
+        }else if(check){
+            nextCheckedCodes.push(code);
+        }else{
+            nextCheckedCodes = nextCheckedCodes.filter(item => code !== item);
+        }
+
+        onChange(nextCheckedCodes);
+    };
 
     return(
         <div className="btn-check-group">
-            {options.map((option: Option) => {
+            {allOptions.map((option: Option) => {
                 const {code, name} = option;
                 const isChecked = checkedCodes.includes(code);
 
@@ -31,7 +48,7 @@ const BtnCheckGroup = function(props: Props){
                         className={isChecked ? 'checked':''}
                         onClick={() => {
                             const isToCheck = isChecked ? false : true;
-                            onCheck(code, isToCheck);
+                            handleCheck(code, isToCheck);
                         }}
                     >
                         {name}
