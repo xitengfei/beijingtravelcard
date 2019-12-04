@@ -12,6 +12,8 @@ import Scenic from '@/models/Scenic';
 import {RootState} from '@/store';
 import "./index.less";
 
+const PAGE_SIZE = 10;
+
 type Props = {
     title: string;
     areas: Array<Area>;
@@ -21,8 +23,11 @@ type Props = {
 };
 
 type State = {
+    scenics: Array<Scenic>,
     dataSource: any;
     keyword: string;
+    isLoading: boolean;
+    pageIndex: number;
 };
 
 class Home extends React.Component<Props, State> {
@@ -44,8 +49,11 @@ class Home extends React.Component<Props, State> {
         });
 
         this.state = {
-            dataSource: dataSource,
+            scenics: [],
+            dataSource,
             keyword: '',
+            isLoading: false,
+            pageIndex: 1,
         };
     }
 
@@ -56,10 +64,7 @@ class Home extends React.Component<Props, State> {
 
     componentWillReceiveProps(nextProps: Props){
         const {scenics} : Props = nextProps;
-        const {dataSource} = this.state;
-        this.setState({
-            dataSource: dataSource.cloneWithRows(scenics)
-        })
+        this.setState({scenics});
     }
 
     openSideBar = () => {
@@ -79,9 +84,22 @@ class Home extends React.Component<Props, State> {
         )
     }
 
+    onEndReached = (event: any) => {
+        const {isLoading, pageIndex, scenics} = this.state;
+        const hasMore = scenics.length > pageIndex * PAGE_SIZE;
+        if(isLoading || !hasMore) return;
+
+        setTimeout(() => {
+            this.setState({isLoading: false, pageIndex: pageIndex + 1})
+        }, 800);
+    }
+
     render() {
-        const {dataSource} = this.state;
+        const {scenics, dataSource, pageIndex} = this.state;
         const {isLoading, actions} = this.props;
+
+        const scenicsToShow = pageIndex * PAGE_SIZE < scenics.length ? scenics.slice(0, pageIndex * PAGE_SIZE) : scenics;
+        const renderData = dataSource.cloneWithRows(scenicsToShow);
 
         return (
             <div className="page-home">
@@ -99,11 +117,18 @@ class Home extends React.Component<Props, State> {
                     <div className="page-content">
                         <ListView 
                             ref={this.lv}
-                            dataSource={dataSource}
+                            dataSource={renderData}
                             renderRow={this.renderRow}
                             className="area-list xui-list"
-                            pageSize={20}
+                            pageSize={10}
+                            onEndReached={this.onEndReached}
+                            onEndReachedThreshold={2}
                             useBodyScroll
+                            renderFooter={() => (
+                                <div style={{ padding: 30, textAlign: 'center' }}>
+                                    {this.state.isLoading ? 'Loading...' : 'Loaded'}
+                                </div>
+                            )}
                         />
                     </div>
                 </SideBar>
