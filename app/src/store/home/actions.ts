@@ -45,8 +45,6 @@ export const fetchScenics = function(){
             return scenic;
         });
 
-        console.log(scenics);
-
         dispatch({
             type: HOME_SET_YIKATONG_SCENICS,
             payload: scenics

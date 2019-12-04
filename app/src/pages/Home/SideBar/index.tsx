@@ -3,7 +3,6 @@ import { Drawer, Button, DatePicker, List } from 'antd-mobile';
 import BtnCheckGroup from '@/components/BtnCheckGroup';
 import Area from '@/models/Area';
 import Filters from '@/models/Filters';
-import _ from "lodash";
 import "./index.less";
 
 interface Props{
@@ -23,7 +22,7 @@ interface State{
 const nowTimeStamp = Date.now();
 const now = new Date(nowTimeStamp);
 // GMT is not currently observed in the UK. So use UTC now.
-const utcNow = new Date(now.getTime() + (now.getTimezoneOffset() * 60000));
+// const utcNow = new Date(now.getTime() + (now.getTimezoneOffset() * 60000));
 
 export default class extends React.Component<Props, State>{
     constructor(props: Props){
@@ -39,17 +38,6 @@ export default class extends React.Component<Props, State>{
     componentDidMount() {
         
     }
-
-    // componentWillUpdate(nextProps: Props, nextState: State){
-    //     if(!_.isEqual(this.state, nextState)){
-    //         const {checkedAreaIds, startDate, endDate} = nextState;
-    //         this.props.applyFilters({
-    //             areas: checkedAreaIds,
-    //             start: startDate,
-    //             end: endDate
-    //         })
-    //     }
-    // }
 
     onOpenChange = () => {
         this.setState({ open: !this.state.open });

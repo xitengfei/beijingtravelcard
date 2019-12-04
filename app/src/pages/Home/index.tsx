@@ -1,4 +1,5 @@
-import * as React from "react";
+import * as React from 'react';
+import ReactDOM from 'react-dom';
 import { bindActionCreators, Dispatch } from 'redux';
 import { connect } from 'react-redux';
 import { ListView, ActivityIndicator } from 'antd-mobile';
@@ -28,7 +29,17 @@ type State = {
     keyword: string;
     isLoading: boolean;
     pageIndex: number;
+    height: number;
 };
+
+function MyBody(props:any) {
+    return (
+      <div className="am-list-body my-body">
+        <span style={{ display: 'none' }}>you can custom body wrap element</span>
+        {props.children}
+      </div>
+    );
+}
 
 class Home extends React.Component<Props, State> {
     lv: React.RefObject<any>;
@@ -41,11 +52,10 @@ class Home extends React.Component<Props, State> {
         this.lv = React.createRef();
 
         const dataSource = new ListView.DataSource({
-            getRowData: (dataBlob:any, sectionID: string, rowID: string) => {
-                // console.log(dataBlob, sectionID, rowID);
-                return dataBlob[sectionID][rowID];
+            rowHasChanged: (row1:any, row2:any) => {
+                console.log('diff:', row1, row2);
+                return row1 !== row2
             },
-            rowHasChanged: (row1:any, row2:any) => row1 !== row2,
         });
 
         this.state = {
@@ -54,16 +64,26 @@ class Home extends React.Component<Props, State> {
             keyword: '',
             isLoading: false,
             pageIndex: 1,
+            height: 300,
         };
     }
 
-    componentDidMount(){
-        this.props.actions.fetchScenics();
-        this.props.actions.fetchAreas();
+    async componentDidMount(){
+        await this.props.actions.fetchScenics();
+        await this.props.actions.fetchAreas();
+        this.props.actions.applyFilters({});
+
+        let offsetTop = 0;
+        let dom = this.lv ? ReactDOM.findDOMNode(this.lv.current) : null;
+        if(null !== dom){
+            offsetTop = dom.parentNode ? (dom.parentNode as HTMLBaseElement).offsetTop : 0;
+        }
+        const height = document.documentElement.clientHeight - offsetTop;
+        this.setState({height})
     }
 
     componentWillReceiveProps(nextProps: Props){
-        const {scenics} : Props = nextProps;
+        const {scenics}: Props = nextProps;
         this.setState({scenics});
     }
 
@@ -84,7 +104,8 @@ class Home extends React.Component<Props, State> {
         )
     }
 
-    onEndReached = (event: any) => {
+    onEndReached = () => {
+        console.log('fire onEndReached');
         const {isLoading, pageIndex, scenics} = this.state;
         const hasMore = scenics.length > pageIndex * PAGE_SIZE;
         if(isLoading || !hasMore) return;
@@ -95,11 +116,11 @@ class Home extends React.Component<Props, State> {
     }
 
     render() {
-        const {scenics, dataSource, pageIndex} = this.state;
+        const {scenics, dataSource, pageIndex, height} = this.state;
         const {isLoading, actions} = this.props;
 
         const scenicsToShow = pageIndex * PAGE_SIZE < scenics.length ? scenics.slice(0, pageIndex * PAGE_SIZE) : scenics;
-        const renderData = dataSource.cloneWithRows(scenicsToShow);
+        const renderData = scenicsToShow.length ? dataSource.cloneWithRows(scenicsToShow) : dataSource;
 
         return (
             <div className="page-home">
@@ -117,13 +138,16 @@ class Home extends React.Component<Props, State> {
                     <div className="page-content">
                         <ListView 
                             ref={this.lv}
+                            style={{height, overflow:'auto'}}
                             dataSource={renderData}
                             renderRow={this.renderRow}
-                            className="area-list xui-list"
-                            pageSize={10}
+                            className="am-list area-list xui-list"
+                            pageSize={5}
                             onEndReached={this.onEndReached}
-                            onEndReachedThreshold={2}
-                            useBodyScroll
+                            onEndReachedThreshold={20}
+                            renderBodyComponent={() => <MyBody />}
+                            // useBodyScroll
+                            onScroll={() => { console.log('scroll'); }}
                             renderFooter={() => (
                                 <div style={{ padding: 30, textAlign: 'center' }}>
                                     {this.state.isLoading ? 'Loading...' : 'Loaded'}
