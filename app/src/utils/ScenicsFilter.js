@@ -20,7 +20,7 @@ class ScenicsFilter{
     };
 
     areaFilter = (items, areas) => {
-        if(1 === areas.length && 'var$allselected' === areas[0]) return items;
+        if(!areas.length) return items;
         
         return items.filter((item)=>{
             return areas.indexOf(item.area_id) > -1

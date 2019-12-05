@@ -16,15 +16,10 @@ interface Props{
 const BtnCheckGroup = function(props: Props){
     const {options, checkedCodes, onChange} = props;
 
-    let allOptions = [{code: 'var$allselected', name:'不限'}].concat(options);
-
     const handleCheck = (code: string, check: boolean) => {
         let nextCheckedCodes = checkedCodes.slice();
         
-        // 不限
-        if('var$allselected' === code) {
-            nextCheckedCodes = [code];
-        }else if(check){
+        if(check){
             nextCheckedCodes.push(code);
         }else{
             nextCheckedCodes = nextCheckedCodes.filter(item => code !== item);
@@ -35,7 +30,17 @@ const BtnCheckGroup = function(props: Props){
 
     return(
         <div className="btn-check-group">
-            {allOptions.map((option: Option) => {
+            <Button 
+                inline
+                key={'nolimit'}
+                type={checkedCodes.length ? 'ghost':'primary'}
+                size="small"
+                onClick={() => onChange([])}
+            >
+                不限
+            </Button>
+
+            {options.map((option: Option) => {
                 const {code, name} = option;
                 const isChecked = checkedCodes.includes(code);
 

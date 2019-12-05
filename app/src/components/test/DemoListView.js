@@ -57,7 +57,6 @@ class Demo extends React.Component {
         setTimeout(() => {
             this.rData = this.rData.concat(genData(++pageIndex));
             this.setState({
-                // dataSource: ,
                 isLoading: false,
             });
         }, 1000);
@@ -68,14 +67,14 @@ class Demo extends React.Component {
 
         return (<div>
             <ListView
-                // ref={el => this.lv = el}
+                ref={el => this.lv = el}
                 dataSource={renderData}
                 useBodyScroll
                 renderHeader={() => <div style={{ padding: 30 }}>设置了`useBodyScroll`</div>}
                 renderFooter={() =>
                     <div style={{ padding: 30 }}>{this.state.isLoading ? 'loading...' : 'loaded'}</div>}
-                // renderBodyComponent={() => <div className="for-body-demo" />}
-                // renderSectionBodyWrapper={(sectionID) => <MySectionBodyWrapper key={sectionID} />}
+                renderBodyComponent={() => <div className="for-body-demo" />}
+                renderSectionBodyWrapper={(sectionID) => <MySectionBodyWrapper key={sectionID} />}
                 renderRow={(rowData) => (<div style={{ height: 50 }}>
                     <span>{rowData} Let me keep typing here so it wraps at least one line.</span>
                 </div>)}
