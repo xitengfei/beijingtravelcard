@@ -26,8 +26,7 @@ List.Item = (props: Scenic) => {
             <div className="item-meta">
                 <span className="icon-id">{props.id}</span>
                 <h4 className="meta-title">
-                    {/* <a href={props.link} title={props.name}>{props.name}</a> */}
-                    <Link to={`/scenic/${props.id}`}>{props.name}</Link>
+                    {props.link ? <Link to={`/scenic/${props.id}`}>{props.name}</Link> : props.name}
                 </h4>
                 <span className="area">{props.area}</span>
                 <img className="location" src={locationIcon} alt="case1" />

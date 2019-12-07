@@ -20,7 +20,10 @@ export const HOME_SET_FILTERED_SCENICS = 'HOME_SET_FILTERED_SCENICS'
 // Action Creator
 // ===============================
 export const fetchAreas = function(){
-    return async (dispatch: Redux.Dispatch) => {
+    return async (dispatch: Redux.Dispatch, getState: () => RootState) => {
+        const {homeStore} = getState();
+        if(homeStore.areas.length) return homeStore.areas;
+
         const areas = await API.getAreas();
         dispatch({
             type: HOME_SET_YIKATONG_AREAS,
@@ -30,9 +33,12 @@ export const fetchAreas = function(){
 }
 
 export const fetchScenics = function(){
-    return async (dispatch: Redux.Dispatch) => {
-        let scenics = await API.getScenics();
-        scenics = scenics.map((scenic: Scenic, index: number) => {
+    return async (dispatch: Redux.Dispatch, getState: () => RootState) => {
+        const {scenics} = getState().homeStore;
+        if(scenics.length) return scenics;
+
+        let scenicsList = await API.getScenics();
+        scenicsList = scenicsList.map((scenic: Scenic, index: number) => {
             scenic.id = index + 1 + '';
             scenic.periods = [];
             scenic.dates = scenic.dates || [];
@@ -50,7 +56,7 @@ export const fetchScenics = function(){
 
         return dispatch({
             type: HOME_SET_YIKATONG_SCENICS,
-            payload: scenics
+            payload: scenicsList
         })
     }
 }
