@@ -71,9 +71,11 @@ export default class extends React.Component<Props, State>{
     renderContent = () => {
         const {areas}:Props = this.props;
         const {checkedAreaIds} = this.state;
+        const docWidth = document.documentElement.clientWidth;
+        const width = Math.min(docWidth - 25, 500);
 
         return (
-            <div className="sidebar-content">
+            <div className="sidebar-content" style={{width}}>
                 <div className="filters">
                     <p className="sub-title">选择区域</p>
                     <div className="areas-list">

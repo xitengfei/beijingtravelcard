@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import locationIcon from './img/location-icon.svg'
 import Scenic from '@/models/Scenic';
 
@@ -24,7 +25,10 @@ List.Item = (props: Scenic) => {
         <div className="xui-list-item">
             <div className="item-meta">
                 <span className="icon-id">{props.id}</span>
-                <h4 className="meta-title">{props.name}</h4>
+                <h4 className="meta-title">
+                    {/* <a href={props.link} title={props.name}>{props.name}</a> */}
+                    <Link to={`/scenic/${props.id}`}>{props.name}</Link>
+                </h4>
                 <span className="area">{props.area}</span>
                 <img className="location" src={locationIcon} alt="case1" />
             </div>

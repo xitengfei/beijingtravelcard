@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavBar, Icon, SearchBar } from 'antd-mobile';
-import Logo from '../img/yikatong-logo-sm.png';
+import Logo from '@/assets/image/yikatong-logo-sm.png';
 import "./index.less";
 
 interface Props{
@@ -24,7 +24,7 @@ export default class extends React.Component<Props, State>{
     }
 
     componentDidMount() {
-        this.autoFocusInst.focus();
+        // this.autoFocusInst.focus();
     }
 
     render(){
@@ -41,7 +41,7 @@ export default class extends React.Component<Props, State>{
                     ]}
                 >{title}</NavBar>
                 <SearchBar 
-                    placeholder="自动获取光标" 
+                    placeholder="输入关键字搜索景区" 
                     ref={ref => this.autoFocusInst = ref}
                     onSubmit={onSearch}
                 />

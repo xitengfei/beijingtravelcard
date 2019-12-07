@@ -1,4 +1,4 @@
-import {Dispatch} from 'redux';
+import * as Redux from 'redux';
 import ScenicsFilter from '@/utils/ScenicsFilter';
 import API from '@/api/api';
 
@@ -20,7 +20,7 @@ export const HOME_SET_FILTERED_SCENICS = 'HOME_SET_FILTERED_SCENICS'
 // Action Creator
 // ===============================
 export const fetchAreas = function(){
-    return async (dispatch:Dispatch): Promise<void> => {
+    return async (dispatch: Redux.Dispatch) => {
         const areas = await API.getAreas();
         dispatch({
             type: HOME_SET_YIKATONG_AREAS,
@@ -30,9 +30,10 @@ export const fetchAreas = function(){
 }
 
 export const fetchScenics = function(){
-    return async (dispatch:Dispatch): Promise<void> => {
+    return async (dispatch: Redux.Dispatch) => {
         let scenics = await API.getScenics();
-        scenics = scenics.map((scenic: Scenic) => {
+        scenics = scenics.map((scenic: Scenic, index: number) => {
+            scenic.id = index + 1 + '';
             scenic.periods = [];
             scenic.dates = scenic.dates || [];
             const dates: Array<string> = scenic.dates;
@@ -47,7 +48,7 @@ export const fetchScenics = function(){
             return scenic;
         });
 
-        dispatch({
+        return dispatch({
             type: HOME_SET_YIKATONG_SCENICS,
             payload: scenics
         })
@@ -63,7 +64,7 @@ export const setLoading = (isLoading: boolean) => ({
  * Apply Filters on scenics
  * @param filters 
  */
-export const applyFilters = (filters: Filters) => (dispatch: Dispatch, getState: () => RootState) =>  {
+export const applyFilters = (filters: Filters) => (dispatch: Redux.Dispatch, getState: () => RootState) =>  {
     const {
         homeStore: {
             scenics
