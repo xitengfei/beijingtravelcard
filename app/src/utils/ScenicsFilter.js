@@ -15,7 +15,7 @@ class ScenicsFilter{
 
     keywordFilter = (items, keyword) => {
         return items.filter(item => { 
-            return item.name.indexOf(keyword) > -1 || item.area_name.indexOf(keyword) > -1;
+            return item.name.indexOf(keyword) > -1 || item.area.indexOf(keyword) > -1;
         })
     };
 
@@ -23,7 +23,7 @@ class ScenicsFilter{
         if(!areas.length) return items;
         
         return items.filter((item)=>{
-            return areas.indexOf(item.area_id) > -1
+            return areas.indexOf(item.area) > -1
         })
     };
 
@@ -32,7 +32,7 @@ class ScenicsFilter{
 
         return items.filter(item => {
             let {periods = []} = item;
-            if(!item.dates) return true;
+            if(!periods.length) return true;
 
             let match = false;
             for(let period of periods){

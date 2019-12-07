@@ -1,5 +1,6 @@
 import React from 'react'
 import locationIcon from './img/location-icon.svg'
+import Scenic from '@/models/Scenic';
 
 import './index.less'
 
@@ -15,30 +16,22 @@ const List = (props: ListProps) => {
     )
 }
 
-interface ItemProps{
-    id: string,
-    name: string,
-    area_name: string,
-    dates: string,
-    limit_type: string,
-    price: string,
-    level: string,
-    notice: string
-}
+List.Item = (props: Scenic) => {
+    
+    const period = 2 === props.dates.length ? props.dates.join(' - ') : '';
 
-List.Item = (props: ItemProps) => {
     return (
         <div className="xui-list-item">
             <div className="item-meta">
                 <span className="icon-id">{props.id}</span>
                 <h4 className="meta-title">{props.name}</h4>
-                <span className="area">{props.area_name}</span>
+                <span className="area">{props.area}</span>
                 <img className="location" src={locationIcon} alt="case1" />
             </div>
             <div className="item-content">
                 <div className="meta-line">
-                    <div className="time">时间段：{props.dates}</div>
-                    <div className="limit">{props.limit_type}</div>
+                    <div className="time">时间段：{period}</div>
+                    <div className="limit">{props.limit}</div>
                 </div>
                 <div className="meta-line">
                     <div className="price">票价：{props.price}元</div>

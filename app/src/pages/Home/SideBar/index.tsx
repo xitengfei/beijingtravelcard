@@ -78,7 +78,7 @@ export default class extends React.Component<Props, State>{
                     <p className="sub-title">选择区域</p>
                     <div className="areas-list">
                         <BtnCheckGroup 
-                            options={areas.map(area => ({code: area.id, name: area.name}))}
+                            options={areas.map(area => ({code: area.name, name: area.name}))}
                             checkedCodes={checkedAreaIds}
                             onChange={this.handleAreaChange}
                         />

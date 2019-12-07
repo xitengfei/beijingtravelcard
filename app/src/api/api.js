@@ -12,7 +12,7 @@ class API extends Server {
 
     async getScenics() {
         try {
-            const result = await this.axios('get', `/json/scenics.json`);
+            const result = await this.axios('get', `/json/scenics-2019.json`);
             return result;
         } catch (err) {
             throw err;

@@ -34,8 +34,10 @@ export const fetchScenics = function(){
         let scenics = await API.getScenics();
         scenics = scenics.map((scenic: Scenic) => {
             scenic.periods = [];
+            scenic.dates = scenic.dates || [];
+            const dates: Array<string> = scenic.dates;
+
             let i = 0;
-            const dates: Array<string> = scenic.dates.split('-');
             while(i < dates.length){
                 if(dates[i] && dates[i+1]){
                     scenic.periods.push([dates[i], dates[i+1]]);

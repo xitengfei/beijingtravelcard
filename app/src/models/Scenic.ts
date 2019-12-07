@@ -1,14 +1,12 @@
 export default interface Scenic{
     id: string,
     name: string,
-    area_id: string,
-    area_name: string,
-    dates: string,
+    area: string,
+    link: string,
+    dates: Array<string>,
     periods: Array<string[]>,
     level: string,
-    limit_type: string,
+    limit: string,
     notice: string,
-    price: string,
-    created: string,
-    updated: string
+    price: string
 }
