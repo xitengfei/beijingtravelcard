@@ -19,6 +19,7 @@ type Props = {
     title: string;
     areas: Array<Area>;
     scenics: Array<Scenic>;
+    allScenics: Array<Scenic>;
     actions: any;
     isLoading: boolean;
 };
@@ -53,13 +54,12 @@ class Home extends React.Component<Props, State> {
 
         const dataSource = new ListView.DataSource({
             rowHasChanged: (row1:any, row2:any) => {
-                console.log('diff:', row1, row2);
                 return row1 !== row2
             },
         });
 
         this.state = {
-            scenics: [],
+            scenics: props.scenics,
             dataSource,
             keyword: '',
             isLoading: false,
@@ -69,9 +69,9 @@ class Home extends React.Component<Props, State> {
     }
 
     async componentDidMount(){
-        await this.props.actions.fetchScenics();
-        await this.props.actions.fetchAreas();
-        this.props.actions.applyFilters({});
+        const {actions} = this.props;
+        await actions.fetchScenics();
+        await actions.fetchAreas();
 
         let offsetTop = 0;
         let dom = this.lv ? ReactDOM.findDOMNode(this.lv.current) : null;
@@ -83,7 +83,12 @@ class Home extends React.Component<Props, State> {
     }
 
     componentWillReceiveProps(nextProps: Props){
-        const {scenics}: Props = nextProps;
+        const {scenics, allScenics}: Props = nextProps;
+        
+        if(allScenics.length && !scenics.length){
+            this.props.actions.applyFilters({});
+        }
+
         this.setState({scenics});
     }
 
@@ -166,12 +171,13 @@ class Home extends React.Component<Props, State> {
 }
 
 const mapStateToProps = (state: RootState, ownProps: Props) => {
-    const {areas, filteredScenics, isLoading} = state.homeStore;
+    const {areas, scenics, filteredScenics, isLoading} = state.homeStore;
 
     return {
         title: '',
         areas,
         scenics: filteredScenics,
+        allScenics: scenics,
         isLoading
     };
 }
