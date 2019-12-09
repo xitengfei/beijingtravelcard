@@ -20,15 +20,16 @@ const List = (props: ListProps) => {
 List.Item = (props: Scenic) => {
     
     const period = 2 === props.dates.length ? props.dates.join(' - ') : '';
+    const isOver = !props.link;
 
     return (
-        <div className="xui-list-item">
+        <div className={`xui-list-item ${isOver ? 'isover':''}`}>
             <div className="item-meta">
                 <span className="icon-id">{props.id}</span>
                 <h4 className="meta-title">
                     {props.link ? <Link to={`/scenic/${props.id}`}>{props.name}</Link> : props.name}
                 </h4>
-                <span className="area">{props.area}</span>
+                <span className="area">{props.area || '新增景区'}</span>
                 <img className="location" src={locationIcon} alt="case1" />
             </div>
             <div className="item-content">

@@ -1,5 +1,7 @@
 import React from 'react';
-import { NavBar, Icon, SearchBar } from 'antd-mobile';
+import { NavBar, Icon } from 'antd-mobile';
+import SearchModal from '@/components/SearchModal';
+import Menu from '../Menu';
 import Logo from '@/assets/image/yikatong-logo-sm.png';
 import "./index.less";
 
@@ -10,25 +12,43 @@ interface Props{
 }
 
 interface State{
-    
+    searchVisible: boolean,
+    keyword: string
 }
 
-export default class extends React.Component<Props, State>{
-    autoFocusInst: any;
+const PlaceHolder = '请输入关键字搜索景区';
 
+export default class extends React.Component<Props, State>{
     constructor(props: Props){
         super(props);
 
         this.state = {
+            searchVisible: false,
+            keyword: '',
         };
     }
 
-    componentDidMount() {
-        // this.autoFocusInst.focus();
+    handleSearch = (keyword: string) => {
+        this.props.onSearch(keyword);
+        this.setState({searchVisible: false, keyword});
+    }
+
+    handleCancel = () => {
+        this.setState({searchVisible: false});
+    }
+
+    handleSearchClick = () => {
+        this.setState({searchVisible: true});
+    }
+
+    handleMenuSelect = (node: any) => {
+        console.log('handleMenuSelect', node);
     }
 
     render(){
-        const {title, onRightClick, onSearch} = this.props;
+        const {title, onRightClick} = this.props;
+        const {searchVisible, keyword} = this.state;
+
         return(
             <div
                 className="headerNav"
@@ -36,14 +56,35 @@ export default class extends React.Component<Props, State>{
                 <NavBar
                     mode="light"
                     icon={<img className="brand" src={Logo} alt="logo" />}
-                    rightContent={[
-                        <Icon key="1" type="ellipsis" onClick={onRightClick} />,
-                    ]}
+                    rightContent={
+                        <Menu 
+                            onSelect={this.handleMenuSelect}
+                        />
+                    }
                 >{title}</NavBar>
-                <SearchBar 
-                    placeholder="输入关键字搜索景区" 
-                    ref={ref => this.autoFocusInst = ref}
-                    onSubmit={onSearch}
+
+                <div className="search-bar">
+                    <div className="input-container" onClick={this.handleSearchClick}>
+                        <div className="input">
+                            <Icon type="search" />
+                            {keyword ? 
+                                <span>{keyword}</span> : 
+                                <span className="placeholder">{PlaceHolder}</span>
+                            }
+                        </div>
+                    </div>
+                    <div className="filter-trigger" onClick={onRightClick}>
+                        <span>筛选</span>
+                        <span className="iconfont icon-filter"></span>
+                    </div>
+                </div>
+
+                <SearchModal 
+                    visible={searchVisible}
+                    keyword={keyword}
+                    onSearch={this.handleSearch}
+                    onCancel={this.handleCancel}
+                    placeholder={PlaceHolder}
                 />
             </div>
         )
