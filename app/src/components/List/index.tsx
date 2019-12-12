@@ -21,16 +21,20 @@ List.Item = (props: Scenic) => {
     
     const period = 2 === props.dates.length ? props.dates.join(' - ') : '';
     const isOver = !props.link;
+    const locationLink = 'https://www.amap.com/search?query=' + props.name;
 
     return (
         <div className={`xui-list-item ${isOver ? 'isover':''}`}>
             <div className="item-meta">
                 <span className="icon-id">{props.id}</span>
                 <h4 className="meta-title">
-                    {props.link ? <Link to={`/scenic/${props.id}`}>{props.name}</Link> : props.name}
+                    {/* {props.link ? <Link to={`/scenic/${props.id}`}>{props.name}</Link> : props.name} */}
+                    {props.link ? <a href={props.link} target="_blank" >{props.name}</a> : props.name}
                 </h4>
                 <span className="area">{props.area || '新增景区'}</span>
-                <img className="location" src={locationIcon} alt="case1" />
+                <a href={locationLink} target="_blank" className="location">
+                    <img className="location-img" src={locationIcon} alt="case1" />
+                </a>
             </div>
             <div className="item-content">
                 <div className="meta-line">

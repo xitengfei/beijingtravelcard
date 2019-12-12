@@ -48,6 +48,10 @@ class ScenicsFilter{
     filterItems = (items, filters) => {
         let newItems = items.slice();
 
+        if(filters.hideUnavailable){
+            newItems = newItems.filter(item => item.link);
+        }
+
         if(filters.keyword){
             newItems = this.keywordFilter(newItems, filters.keyword);
         }

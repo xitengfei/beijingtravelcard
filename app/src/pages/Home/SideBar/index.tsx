@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { Drawer, Button, DatePicker, List } from 'antd-mobile';
+import { Drawer, Button, DatePicker, List, Checkbox } from 'antd-mobile';
 import BtnCheckGroup from '@/components/BtnCheckGroup';
 import Area from '@/models/Area';
 import Filters from '@/models/Filters';
@@ -17,12 +17,15 @@ interface State{
     checkedAreaIds: Array<string>,
     startDate: Date | undefined,
     endDate: Date | undefined,
+    hideUnavailable: boolean,
 }
 
 const nowTimeStamp = Date.now();
 const now = new Date(nowTimeStamp);
 // GMT is not currently observed in the UK. So use UTC now.
 // const utcNow = new Date(now.getTime() + (now.getTimezoneOffset() * 60000));
+
+const {CheckboxItem} = Checkbox;
 
 export default class extends React.Component<Props, State>{
     constructor(props: Props){
@@ -32,6 +35,7 @@ export default class extends React.Component<Props, State>{
             checkedAreaIds: [],
             startDate: now,
             endDate: now,
+            hideUnavailable: false,
         }
     }
 
@@ -52,11 +56,18 @@ export default class extends React.Component<Props, State>{
             open: false
         });
 
-        const {checkedAreaIds, startDate, endDate} = this.state;
+        const {
+            checkedAreaIds, 
+            startDate, 
+            endDate,
+            hideUnavailable
+        } = this.state;
+        
         this.props.applyFilters({
             areas: checkedAreaIds,
             start: startDate,
-            end: endDate
+            end: endDate,
+            hideUnavailable
         });
     }
 
@@ -70,7 +81,7 @@ export default class extends React.Component<Props, State>{
 
     renderContent = () => {
         const {areas}:Props = this.props;
-        const {checkedAreaIds} = this.state;
+        const {checkedAreaIds, hideUnavailable} = this.state;
         const docWidth = document.documentElement.clientWidth;
         const width = Math.min(docWidth - 25, 500);
 
@@ -109,6 +120,17 @@ export default class extends React.Component<Props, State>{
                                 <List.Item arrow="horizontal">截止</List.Item>
                             </DatePicker>
                         </List>
+                    </div>
+
+                    <p className="sub-title">其他</p>
+                    <div className="other">
+
+                    <CheckboxItem 
+                        checked={hideUnavailable} 
+                        onChange={(e: any) => this.setState({hideUnavailable: e.target.checked})}
+                    >
+                        不显示接待结束的景区
+                    </CheckboxItem>
                     </div>
                 </div>
 
