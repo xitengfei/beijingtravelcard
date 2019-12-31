@@ -45,6 +45,7 @@ function MyBody(props:any) {
 class Home extends React.Component<Props, State> {
     lv: React.RefObject<any>;
     sideBarRef: React.RefObject<any>;
+    initLoad: boolean = false;
 
     constructor(props: Props){
         super(props);
@@ -85,7 +86,9 @@ class Home extends React.Component<Props, State> {
     componentWillReceiveProps(nextProps: Props){
         const {scenics, allScenics}: Props = nextProps;
         
-        if(allScenics.length && !scenics.length){
+        // do initial search/filter, excute only once
+        if(!this.initLoad && (allScenics.length && !scenics.length)){
+            this.initLoad = true;
             this.props.actions.applyFilters({});
         }
 
@@ -155,7 +158,7 @@ class Home extends React.Component<Props, State> {
                             onScroll={() => { console.log('scroll'); }}
                             renderFooter={() => (
                                 <div style={{ padding: 30, textAlign: 'center' }}>
-                                    {this.state.isLoading ? 'Loading...' : 'Loaded'}
+                                    {this.state.isLoading ? '加载中...' : '已加载完成'}
                                 </div>
                             )}
                         />
