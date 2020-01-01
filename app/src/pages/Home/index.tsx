@@ -110,6 +110,8 @@ class Home extends React.Component<Props, State> {
         actions.setVersion(version);
         await actions.fetchScenics(true);
         await actions.fetchAreas(true);
+
+        this.props.actions.applyFilters({});
     }
 
     /**

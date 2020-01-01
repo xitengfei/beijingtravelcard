@@ -43,11 +43,9 @@ export default class extends React.Component<Props, State>{
         this.setState({searchVisible: true});
     }
 
-    handleMenuSelect = (node: any) => {
-        if(node.key !== this.props.version){
-            console.log('change to version: ', node.key);
-            this.props.setVersion(node.key);
-        }
+    handleMenuSelect = (key: string) => {
+        console.log('change to version: ', key);
+        this.props.setVersion(key);
     }
 
     render(){
