@@ -8,6 +8,7 @@ const initState: Home = {
     scenics:[],
     filteredScenics:[],
     isLoading: false,
+    version: '2020'
 };
 
 export default genReducer(initState, ACTION_HANDLERS)

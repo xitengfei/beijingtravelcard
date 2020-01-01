@@ -7,7 +7,6 @@ import NavBar from "./Nav";
 import SideBar from "./SideBar";
 import List from "@/components/List";
 import homeActions from "@/store/home/actions";
-import Area from '@/models/Area';
 import Scenic from '@/models/Scenic';
 // types
 import {RootState} from '@/store';
@@ -17,11 +16,12 @@ const PAGE_SIZE = 10;
 
 type Props = {
     title: string;
-    areas: Array<Area>;
+    areas: Array<string>;
     scenics: Array<Scenic>;
     allScenics: Array<Scenic>;
     actions: any;
     isLoading: boolean;
+    version: string;
 };
 
 type State = {
@@ -104,14 +104,17 @@ class Home extends React.Component<Props, State> {
         actions.applyFilters({keyword: value});
     }
 
-    renderRow = (rowData: any, sectionId: any, rowId: any) => {
-        return (
-            <div key={rowId} className="area-item">
-                <List.Item {...rowData} />
-            </div>
-        )
+    handleSetVersion = async (version: string) => {
+        const {actions}: Props = this.props;
+
+        actions.setVersion(version);
+        await actions.fetchScenics(true);
+        await actions.fetchAreas(true);
     }
 
+    /**
+     * load new data
+     */
     onEndReached = () => {
         console.log('fire onEndReached');
         const {isLoading, pageIndex, scenics} = this.state;
@@ -123,9 +126,17 @@ class Home extends React.Component<Props, State> {
         }, 800);
     }
 
+    renderRow = (rowData: any, sectionId: any, rowId: any) => {
+        return (
+            <div key={rowId} className="area-item">
+                <List.Item {...rowData} />
+            </div>
+        )
+    }
+
     render() {
         const {scenics, dataSource, pageIndex, height} = this.state;
-        const {isLoading, actions} = this.props;
+        const {isLoading, actions, version} = this.props;
 
         const scenicsToShow = pageIndex * PAGE_SIZE < scenics.length ? scenics.slice(0, pageIndex * PAGE_SIZE) : scenics;
         const renderData = scenicsToShow.length ? dataSource.cloneWithRows(scenicsToShow) : dataSource;
@@ -142,6 +153,8 @@ class Home extends React.Component<Props, State> {
                         title={'京津冀一卡通'}
                         onRightClick={this.openSideBar}
                         onSearch={this.handleSearch}
+                        version={version}
+                        setVersion={this.handleSetVersion}
                     />
                     <div className="page-content">
                         <ListView 
@@ -174,14 +187,15 @@ class Home extends React.Component<Props, State> {
 }
 
 const mapStateToProps = (state: RootState, ownProps: Props) => {
-    const {areas, scenics, filteredScenics, isLoading} = state.homeStore;
+    const {areas, scenics, filteredScenics, isLoading, version} = state.homeStore;
 
     return {
         title: '',
         areas,
         scenics: filteredScenics,
         allScenics: scenics,
-        isLoading
+        isLoading,
+        version
     };
 }
 

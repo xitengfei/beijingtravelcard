@@ -1,0 +1,5262 @@
+[
+    {
+        "name": "中央电视塔(4A)",
+        "price": "90",
+        "dates": [
+            "2019.11.1",
+            "2019.12.25"
+        ],
+        "dateNotce": "（08:30-21：30，21：30停止检票，停止入场，22点清场。）",
+        "dateTxt": "2019.11.1-2019.12.25（08:30-21：30，21：30停止检票，停止入场，22点清场。）",
+        "notice": "免门票1次,需在一卡通官方微信公众号预约成功后方可接待，约满为止。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/977c740322be4717b9f5a3f6d8ce50a1.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1248",
+        "area": "海淀",
+        "province": "北京"
+    },
+    {
+        "name": "阳台山（2A）",
+        "price": "10",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2dbcfedfc9f64f4790d8dbb97ddfb907.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1084",
+        "area": "海淀",
+        "province": "北京"
+    },
+    {
+        "name": "杜莎夫人蜡像馆 (主题场馆)",
+        "price": "180",
+        "dates": null,
+        "dateTxt": "2019.9月、2019.12月",
+        "notice": "免门票1次，需在一卡通官方微信公众号预约成功后方可接待，约满为止。 ",
+        "special": true,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/01862f19ea1f477f9bfadf870d2b27fa.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1201",
+        "area": "东城",
+        "province": "北京"
+    },
+    {
+        "name": "前门华韵泰山皮影体验馆（主题场馆）",
+        "price": "100",
+        "dates": [
+            "2019.9.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.12.31",
+        "notice": "免门票1次，五一、十一、春节假期持卡无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/8762e1d5d454424ba1be8dd4ec7e069c.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1044",
+        "area": "东城",
+        "province": "北京"
+    },
+    {
+        "name": "北京王府井古人类文化遗址博物馆 ",
+        "price": "20",
+        "dates": [
+            "2019.10.1",
+            "2020.9.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2020.9.30",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/92a1359eb5af43dcbbfe20361542b670.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1249",
+        "area": "东城",
+        "province": "北京"
+    },
+    {
+        "name": "北戏书馆",
+        "price": "20",
+        "dates": [
+            "2019.9.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.12.31",
+        "notice": "免门票不限次，每周六晚演出，请提前电话咨询",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7716fa4f27904cb2be326ec9da5b493b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1066",
+        "area": "丰台",
+        "province": "北京"
+    },
+    {
+        "name": "南宫-五洲植物乐园（4A）",
+        "price": "60",
+        "dates": [
+            "2019.9.1",
+            "2019.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2019.12.31",
+        "notice": "优惠购门票一次，需到票务服务大厅刷卡换票，自付35元/人，1.2米以下儿童免票",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/d1adb1ae18d44dc2870b26517f05872f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1036",
+        "area": "丰台",
+        "province": "北京"
+    },
+    {
+        "name": "纪晓岚故居",
+        "price": "10",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，不含讲解",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/3674daf80d9b4b96a42455fdd5e96ae9.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1065",
+        "area": "西城区",
+        "province": "北京"
+    },
+    {
+        "name": "古陶文明博物馆（3A）",
+        "price": "50",
+        "dates": [
+            "2019.9.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.12.31",
+        "notice": "免门票不限次，每周一、二闭馆",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/c54d2e181f3648638780ada89bc7a226.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1035",
+        "area": "西城区",
+        "province": "北京"
+    },
+    {
+        "name": "北京古钱币展览馆（3A）",
+        "price": "20",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，周一闭馆",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9e257b9d274d42b9bd5ff416695880e2.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1202",
+        "area": "西城区",
+        "province": "北京"
+    },
+    {
+        "name": "郭沫若纪念馆",
+        "price": "20",
+        "dates": [
+            "2019.9.15",
+            "2019.12.25"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.15-2019.12.25",
+        "notice": "免门票3次，周一闭馆",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/39d71c8c7f69437791f93f9f6217ad6b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1111",
+        "area": "西城区",
+        "province": "北京"
+    },
+    {
+        "name": "湖广会馆大戏楼（3A）",
+        "price": "10",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，大年三十闭馆一天",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/4af5b455489444d696bcb4d45086cef5.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1067",
+        "area": "西城区",
+        "province": "北京"
+    },
+    {
+        "name": "慈善寺",
+        "price": "8",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f051e4f02bb649f68d5646b8f24f2af6.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1181",
+        "area": "石景山",
+        "province": "北京"
+    },
+    {
+        "name": "八奇洞(4A)",
+        "price": "54",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/d96a77c8a0ce406b8b10da94799fa213.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1273",
+        "area": "门头沟",
+        "province": "北京"
+    },
+    {
+        "name": "谷山村农耕文化园（4A）",
+        "price": "50",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9ac202b7e6974875aa7b0c210e8c6f2a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1274",
+        "area": "门头沟",
+        "province": "北京"
+    },
+    {
+        "name": "灵水举人村(3A)",
+        "price": "20",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a008974461f14481a9bfe33734c1b41c.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1275",
+        "area": "门头沟",
+        "province": "北京"
+    },
+    {
+        "name": "龙门涧风景区",
+        "price": "40",
+        "dates": [
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/14f9a9e1594c433f8d12694d190706cd.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1276",
+        "area": "门头沟",
+        "province": "北京"
+    },
+    {
+        "name": "聚灵峡(3A)",
+        "price": "30",
+        "dates": [
+            "2020.3.15",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.15-2020.10.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/c4b5881d3967442f8b0b07a33450f14e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1278",
+        "area": "门头沟",
+        "province": "北京"
+    },
+    {
+        "name": "京西十八潭(3A)",
+        "price": "35",
+        "dates": [
+            "2020.3.15",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.15-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a160cdadca8d486dadae1b671d2f4abc.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1279",
+        "area": "门头沟",
+        "province": "北京"
+    },
+    {
+        "name": "百花谷",
+        "price": "20",
+        "dates": [
+            "2020.5.1",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2287302b93a04e9889593e1e29b54a39.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1057",
+        "area": "门头沟",
+        "province": "北京"
+    },
+    {
+        "name": "摩崖石刻",
+        "price": "12",
+        "dates": [
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/6cc0077d2e3245399612b0a7d58d944b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1168",
+        "area": "怀柔",
+        "province": "北京"
+    },
+    {
+        "name": "匹特搏真人CS彩弹拓展俱乐部 ",
+        "price": "150",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "优惠购门票1次，持卡享受优惠价90元/人，团队无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1e16dc9abace4377bfcb89c27351c0b9.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1258",
+        "area": "怀柔",
+        "province": "北京"
+    },
+    {
+        "name": "北京二锅头酒博物馆（3A）",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，春节期间闭馆",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7bb085ffe75c4acc860909127d884c49.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1176",
+        "area": "怀柔",
+        "province": "北京"
+    },
+    {
+        "name": "天池峡谷森林公园",
+        "price": "26",
+        "dates": [
+            "2020.4.1",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/bb69656cace2482a8707ba799f8c0b8e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1060",
+        "area": "怀柔",
+        "province": "北京"
+    },
+    {
+        "name": "响水湖长城 (3A)",
+        "price": "43",
+        "dates": [
+            "2019.11.1",
+            "2019.12.31",
+            "2020.1.1",
+            "2020.1.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.11.1-2019.12.31、2020.1.1-2020.1.31",
+        "notice": "免门票不限次,团队无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/dd569027b9514973a3cd00c391d0fcf1.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1048",
+        "area": "怀柔",
+        "province": "北京"
+    },
+    {
+        "name": "喜鹊登科满族风情园",
+        "price": "60",
+        "dates": [
+            "2020.5.15",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.15-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f607d76b8148468fa31693ad3555c722.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1177",
+        "area": "怀柔",
+        "province": "北京"
+    },
+    {
+        "name": "喇叭沟门原始森林公园（3A）",
+        "price": "40",
+        "dates": [
+            "2020.5.1",
+            "2020.9.27"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.9.27",
+        "notice": "免门票不限次，团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f7faf9af6ad048d0b226612ccd539251.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1335",
+        "area": "怀柔",
+        "province": "北京"
+    },
+    {
+        "name": "云梦仙境(3A)",
+        "price": "45",
+        "dates": [
+            "2020.4.1",
+            "2020.10.7"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.7",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/0cdbaa73893f4b3581cf7633a34356b0.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1198",
+        "area": "怀柔",
+        "province": "北京"
+    },
+    {
+        "name": "北京鹿世界亲子冰雪嘉年华",
+        "price": "20",
+        "dates": [
+            "2020.1.1",
+            "2020.2.28"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.2.28",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7f6222fd46e1458c888ebe62ee1b42d5.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1270",
+        "area": "怀柔",
+        "province": "北京"
+    },
+    {
+        "name": "北京鹿世界主题乐园（2A）",
+        "price": "20",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f526be0c817c409daf8a5c9a636ba580.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1271",
+        "area": "怀柔",
+        "province": "北京"
+    },
+    {
+        "name": "灵慧山",
+        "price": "33",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/4b41e1dc21904ad1aaf3f442a885a0b4.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1082",
+        "area": "怀柔",
+        "province": "北京"
+    },
+    {
+        "name": "星美今晟影视城 (主题场馆)",
+        "price": "80",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": " 2020.1.1-2020.12.31",
+        "notice": "免门票1次，五一、十一期间持卡无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b9ea7417a0b44bab840e27c1b1761326.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1049",
+        "area": "怀柔",
+        "province": "北京"
+    },
+    {
+        "name": "莲花山滑雪场 (3A)",
+        "price": "290",
+        "dates": [
+            "2019.12.1",
+            "2020.2.29"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.12.1-2020.2.29",
+        "notice": "免门票1次，平日场（不含周末和节假日）或夜场二选一。 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b73aa365d44d46969eaa21f376bd6f5b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1178",
+        "area": "顺义",
+        "province": "北京"
+    },
+    {
+        "name": "虎鳄农场",
+        "price": "45",
+        "dates": [
+            "2019.9.1",
+            "2020.5.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.5.31",
+        "notice": "免门票不限次，景区活动及法定节假日期间持卡无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/c325029e6da5486d87a8d89a8bf14462.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1272",
+        "area": "顺义",
+        "province": "北京"
+    },
+    {
+        "name": "考拉大冒险儿童主题乐园 (主题场馆)",
+        "price": "280",
+        "dates": [
+            "2019.9.15",
+            "2019.10.31",
+            "2020.4.1",
+            "2020.5.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.15-2019.10.31，2020.4.1—2020.5.31",
+        "notice": "免门票1次，需在一卡通官方微信公众号预约成功后方可接待，约满为止。（成人不带儿童单独不接待不可入园）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/0b6e261058de4f3591760cb7b03d4f4b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1109",
+        "area": "顺义",
+        "province": "北京"
+    },
+    {
+        "name": "河北村民俗园 (3A)",
+        "price": "60",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，法定节假日期间持卡无效（特别提醒： 清明3天、五一3天、中秋3天、端午3天、十一7天、春节初一至十五等假期期间持卡无效，但可享受5折优惠） ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/35888726fb22486aab81efa441b0d1a3.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1059",
+        "area": "顺义",
+        "province": "北京"
+    },
+    {
+        "name": "第五季龙水凤港生态农场",
+        "price": "48",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/29d009c503704b21ad50be8538f8ae78.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1064",
+        "area": "通州",
+        "province": "北京"
+    },
+    {
+        "name": "大戚收音机电影机博物馆",
+        "price": "50",
+        "dates": [
+            "2019.11.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.11.1—2020.12.31",
+        "notice": "免门票不限次，春节期间闭馆",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/be3910f39da9422daf13fa7124f70f2f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1173",
+        "area": "通州",
+        "province": "北京"
+    },
+    {
+        "name": "三庙一塔",
+        "price": "10",
+        "dates": [
+            "2019.10.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1—2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9b38261586c2451589dd4e6208a47e1e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1172",
+        "area": "通州",
+        "province": "北京"
+    },
+    {
+        "name": "花仙子万花园",
+        "price": "50",
+        "dates": [
+            "2020.4.26",
+            "2020.10.26"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.26-2020.10.26",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/32294eaf0e244a8686732856eeb6ef1b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1070",
+        "area": "通州",
+        "province": "北京"
+    },
+    {
+        "name": "玫瑰情园（日场）(3A)",
+        "price": "50",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票2次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a849577c10044ae9b21a6585a2be4e4a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1179",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "玫瑰情园灯光秀（夜场）（3A）",
+        "price": "50",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票2次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/6e0e47eb19ad4c458e494e5eff39861a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1269",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "冶仙塔旅游风景区（3A）",
+        "price": "70",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，春节期间不可用",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/6a29ee917edb435090c2ae34505ca187.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1091",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "京都第一瀑(2A)",
+        "price": "40",
+        "dates": [
+            "2020.3.15",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.15-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/0f08973e865c452a92f95f3023ad2472.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1334",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "清凉谷 (3A)",
+        "price": "50",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，1、2、3、11、12月水晶长城、玻璃栈道、玻璃吊桥联票优惠到50元/人（五一、端午、中秋、十一假期期间持卡无效）游客需另付10元/人鞋套及保险费 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e8672305e74540ccb1a206b15e0258ce.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1264",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "捧河湾(3A)",
+        "price": "36",
+        "dates": [
+            "2020.4.5",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.5-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1fa707f8e78e40c59dbadfb920618ad9.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1266",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "古北口古镇 （3A）",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e203cf7fcab6404b80e195f8dbd60ac4.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1259",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "东极仙谷自然风景（2A）",
+        "price": "25",
+        "dates": [
+            "2020.4.1",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/15a90f7278e74f62af9874bed396ccd3.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1261",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "五虎门长城景观（2A）",
+        "price": "25",
+        "dates": [
+            "2020.4.1",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b8f5ac2bcafd471f970a457dedb5b53e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1262",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "精灵谷(2A)",
+        "price": "30",
+        "dates": [
+            "2020.4.1",
+            "2020.10.25"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.25",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/8727f42cf7e74032a3ad4d576417d4f7.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1267",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "白龙潭风景区(3A)",
+        "price": "30",
+        "dates": [
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/0190355d663a4c88b4c4587fe44dac70.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1263",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "北京云蒙山长城遗址公园（2A）",
+        "price": "25",
+        "dates": [
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1c923f29d701419690b842eea6c062eb.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1197",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "蟠龙山长城(3A)",
+        "price": "25",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/bff14aa666434aa7bdfa29448fd28087.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1260",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "千尺珍珠瀑风景区",
+        "price": "25",
+        "dates": [
+            "2020.5.1",
+            "2020.10.10"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.10",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/6001d805ec9246fcb8b97a6e42362f0a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1265",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "天门山风景区（2A）",
+        "price": "32",
+        "dates": [
+            "2020.5.1",
+            "2020.10.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.30",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1d3d63b970cd4d429ca538076d3d7b30.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1196",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "云岫谷游猎自然风景区（2A）",
+        "price": "40",
+        "dates": [
+            "2020.4.1",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/bcccdec97cf243fe80ad199314ba814f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1268",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "雾灵西峰(3A)",
+        "price": "40",
+        "dates": [
+            "2020.5.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b95538f7629d41c2a3f9c448770a098b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1206",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "北京紫海香堤香草艺术庄园（2A）",
+        "price": "60",
+        "dates": [
+            "2020.6.20",
+            "2020.10.25"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.20-2020.10.25",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/09916e6e9b554b039bb44fe30a22287f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1079",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "战火兄弟连真人CS基地",
+        "price": "150",
+        "dates": [
+            "2020.4.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.12.31",
+        "notice": "免门票不限次，每人每天限200发水弹。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/5f6075b553fc479ebaf49494869873b8.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1186",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "邑仕庄园国际酒庄（3A）",
+        "price": "98",
+        "dates": [
+            "2019.9.15",
+            "2019.11.30",
+            "2020.4.1",
+            "2020.11.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.15-2019.11.30、2020.4.1-2020.11.30",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/5cc6be3565f34dc2a855c72aa84b00a5.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1050",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "智慧谷自然风景区",
+        "price": "20",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f7057feedc4a473d9c1e6b025b949e60.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1167",
+        "area": "密云",
+        "province": "北京"
+    },
+    {
+        "name": "八达岭野生动物世界 (3A)",
+        "price": "90",
+        "dates": null,
+        "dateTxt": "2019.12月、2020.2月",
+        "notice": "免门票1次，需在一卡通官方微信公众号预约成功后方可接待，约满为止。（电子票无效） ",
+        "special": true,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1a5a6cea306341b1b8966a103f7b4c19.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1239",
+        "area": "延庆",
+        "province": "北京"
+    },
+    {
+        "name": "玉渡山风景区（含冰瀑）（2A）",
+        "price": "60",
+        "dates": [
+            "2019.10.8",
+            "2020.9.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.8-2020.9.30",
+        "notice": "免门票不限次， 团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/4a11afb6d38c4cd89a7239a8917e121d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1101",
+        "area": "延庆",
+        "province": "北京"
+    },
+    {
+        "name": "龙庆峡（门票+船票）（4A）",
+        "price": "140",
+        "dates": [
+            "2019.9.15",
+            "2019.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.15-2019.10.31",
+        "notice": "免门票1次，需在一卡通官方微信公众号预约成功后方可接待，约满为止。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/5aba273004174fb4a87ba895a53d41e3.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1038",
+        "area": "延庆",
+        "province": "北京"
+    },
+    {
+        "name": "古崖居风景区(3A)",
+        "price": "54",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次 清明、五一、十一期间持卡无效。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/752d4ce0a59f43b09c085b06ce3978bb.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1093",
+        "area": "延庆",
+        "province": "北京"
+    },
+    {
+        "name": "百里山水画廊景区-硅化木(4A)",
+        "price": "30",
+        "dates": [
+            "2020.4.10",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.10-2020.10.31",
+        "notice": "免门票不限次，五一、端午、中秋、十一假期期间持卡无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e7712ad0f0fc4e48b1020ea620f9aa4d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1094",
+        "area": "延庆",
+        "province": "北京"
+    },
+    {
+        "name": "百里山水画廊-乌龙峡谷(4A)",
+        "price": "30",
+        "dates": [
+            "2020.4.10",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.10-2020.10.31",
+        "notice": "免门票不限次，五一、端午、中秋、十一假期期间持卡无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9fddbd222f844c72be3bd35342206c84.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1095",
+        "area": "延庆",
+        "province": "北京"
+    },
+    {
+        "name": "百里山水画廊---恐龙游乐园 (4A)",
+        "price": "20",
+        "dates": [
+            "2020.4.10",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.10-2020.10.31",
+        "notice": "免门票不限次，五一、端午、中秋、十一假期期间持卡无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/33b3708406fb458eb6218862e07492f2.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1096",
+        "area": "延庆",
+        "province": "北京"
+    },
+    {
+        "name": "青山园亲子乐园",
+        "price": "30",
+        "dates": [
+            "2019.9.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.12.31",
+        "notice": "免门票3次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/183c68f160854bae87bec937d41d3cb5.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1051",
+        "area": "延庆",
+        "province": "北京"
+    },
+    {
+        "name": "南山健源",
+        "price": "0",
+        "dates": [
+            "2020.5.1",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1eb1e653119146de8487f4470fb809de.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1281",
+        "area": "延庆",
+        "province": "北京"
+    },
+    {
+        "name": "小仓会员制农场",
+        "price": "50",
+        "dates": [
+            "2019.9.15",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.15-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/3471ea63f7364d069c8ed95708f6dc7e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1370",
+        "area": "延庆",
+        "province": "北京"
+    },
+    {
+        "name": "世界文化遗产—总神道（5A）",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/4680ef14c5614320bed6cf9729045c56.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1192",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "世界文化遗产—昭陵（5A）",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票 2 次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ef2fad6f3af14dbfb3e30e81a24eb08f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1193",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "银山塔林（4A） ",
+        "price": "20",
+        "dates": [
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1242514adaab47eeb556a4e0984daeb6.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1194",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "常青藤冰雪嘉年华",
+        "price": "20",
+        "dates": [
+            "2019.12.1",
+            "2020.2.28"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.12.1-2020.2.28",
+        "notice": "免门票1次，含门票及2个体验项目",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/79b5eb74630341d4839cbb8734ec9f79.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1083",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "龙脉冰雪嘉年华",
+        "price": "110",
+        "dates": [
+            "2019.12.25",
+            "2020.2.28"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.12.25-2020.2.28",
+        "notice": "免门票1次，含门票及2个体验项目",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7c6baf5805e84e7290bd4278b1a24512.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1250",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "燕子湖风景区 ",
+        "price": "20",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/0b231adef9914111b8e7783ff8ad8003.jpg",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1251",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "北方射击场",
+        "price": "30",
+        "dates": [
+            "2019.9.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9c70fc2882384fbbb52b726651fa67ac.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1252",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "绿洲水乡养生园",
+        "price": "20",
+        "dates": [
+            "2019.9.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/baef980f178747c3ae1f8c7462546840.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1054",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "白各庄新村儿童乐园",
+        "price": "20",
+        "dates": [
+            "2019.9.1",
+            "2019.11.10",
+            "2020.3.1",
+            "2020.11.10"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2019.11.10、2020.3.1-2020.11.10",
+        "notice": "免门票1次，只限周六、日及节假日接待，儿童无免票",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/3e4b251e2f8b43688b090da688f88d5d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1040",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "龙脉温泉（4A）",
+        "price": "120",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "优惠购门票1次，2020年1月-2月、10月-12月持卡需自付费70元/人，2020年3月-9月平日持卡自付费50元/人、周末持卡自付费70元，熔岩温泉、竹林温泉二选一",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/95308e911a614a3fb88ebf002dfd6dfd.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1253",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "静之湖汤泉（3A）",
+        "price": "258",
+        "dates": [
+            "2020.3.1",
+            "2020.5.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.1-2020.5.31",
+        "notice": "优惠购门票1次，清明、五一假期期间持卡无效，平日持卡游客需自付40元/人，周末持卡需自付50元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1aa0c4c2adf6441dba7831b5d363ac3a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1254",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "静之湖森林公园（3A）",
+        "price": "20",
+        "dates": [
+            "2020.4.15",
+            "2020.11.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.15-2020.11.15",
+        "notice": "免门票不限次，门票需自付5元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1b4e5c9679ae4ee898c9479897579747.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1255",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "静之湖滑雪（夜场）（3A）",
+        "price": "68",
+        "dates": [
+            "2019.12.1",
+            "2020.2.28"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.12.1-2020.2.28",
+        "notice": "优惠购门票1次，需自付35元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9f07477939204ee9a07be3a29a074374.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1256",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "华夏魔术城",
+        "price": "80",
+        "dates": [
+            "2019.10.8",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.8-2020.12.31",
+        "notice": "免门票不限次，五一、十一、春节期间持卡无效，当天观演限1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b2cb062449d24644875f718cd8495e8e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1068",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "花园堂会",
+        "price": "80",
+        "dates": [
+            "2019.10.8",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.8-2020.12.31",
+        "notice": "免门票不限次，五一、十一、春节期间持卡无效，当天观演限1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9e4a6fb3b7f44c7180a10d9afebe192b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1069",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "大岭沟猕猴桃谷（3A）",
+        "price": "30",
+        "dates": [
+            "2020.3.15",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.15-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a3f3d7b427314c629099f9073c5cbdca.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1073",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "北京后花园（白虎涧）风景区",
+        "price": "60",
+        "dates": [
+            "2019.9.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/489f65392bd2463a85d7c97dc43693e4.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1086",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "大杨山国家森林公园",
+        "price": "25",
+        "dates": [
+            "2020.4.16",
+            "2020.10.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.16-2020.10.30",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/8eb5587a41604c57b0759edc161c0fc4.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1182",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "渔山婓俪大美乐园 ",
+        "price": "50",
+        "dates": [
+            "2019.9.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.12.31",
+        "notice": "免门票不限次（不含记次类项目），周二闭馆",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/39c6da91543f4c319f43a946b2d5bf97.jpg",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1328",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "渔山小杏树动物园",
+        "price": "20",
+        "dates": [
+            "2019.9.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.12.31",
+        "notice": "免门票不限次（不含园内单收费项目）周二闭馆",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/dfd73c1b01fa4b8fbe96dc5620692d49.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1329",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "双龙山森林公园（2A）",
+        "price": "15",
+        "dates": [
+            "2020.5.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f32c305b537b4d64b8ee49b636ff1f6f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1195",
+        "area": "昌平",
+        "province": "北京"
+    },
+    {
+        "name": "僧冠峰",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/243617754b1e4043be336cd78d3a78a8.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1120",
+        "area": "承德",
+        "province": "河北"
+    },
+    {
+        "name": "奇石谷 (3A)",
+        "price": "50",
+        "dates": [
+            "2020.5.1",
+            "2020.11.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.11.15",
+        "notice": "免门票不限次 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/73053d7c326640dba88294356fa9b7e1.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1118",
+        "area": "承德",
+        "province": "河北"
+    },
+    {
+        "name": "六里坪森林公园（3A）",
+        "price": "50",
+        "dates": [
+            "2020.5.1",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/cb165cac26f74055a26605d41d412a84.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1118",
+        "area": "承德",
+        "province": "河北"
+    },
+    {
+        "name": "叮当洞 (3A)",
+        "price": "128",
+        "dates": [
+            "2019.11.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.11.1-2020.10.31",
+        "notice": "免门票1次，需交解费20元/人，法定节假日期间持卡无效，可半价优惠 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ba333e78ab20439caa8bf4177c5a820c.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1228",
+        "area": "承德",
+        "province": "河北"
+    },
+    {
+        "name": "清河源憨宝儿萌宠乐园",
+        "price": "120",
+        "dates": [
+            "2019.10.1",
+            "2019.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2019.12.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a5eebcde345a4c63bcaf5b389f5fa2fd.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1325",
+        "area": "承德",
+        "province": "河北"
+    },
+    {
+        "name": "金山湖龙脉水魔方",
+        "price": "99",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，需购保险费10元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/71396705f1874d00ace51282c848ecc7.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1171",
+        "area": "承德",
+        "province": "河北"
+    },
+    {
+        "name": "金月潭动漫水世界",
+        "price": "30",
+        "dates": [
+            "2020.6.20",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.20-2020.8.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/974f6439c5b04f6881a821d0818d1ad3.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1229",
+        "area": "承德",
+        "province": "河北"
+    },
+    {
+        "name": "喇嘛山古洞神泉",
+        "price": "25",
+        "dates": [
+            "2020.5.1",
+            "2020.10.10"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.10",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/8fe9bea0d33c452084681a511e3502c5.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1358",
+        "area": "承德",
+        "province": "河北"
+    },
+    {
+        "name": "呀路古热带植物园 (3A)",
+        "price": "80",
+        "dates": [
+            "2019.9.1",
+            "2019.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2019.12.31",
+        "notice": "免门票1次，团队无效，周一闭馆 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/95c1f1bd5f744c14bd36a44ca2ca8496.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1053",
+        "area": "大兴",
+        "province": "北京"
+    },
+    {
+        "name": "大兴南路烧酒博物馆",
+        "price": "60",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/3a848da1dc4648638313d5865fd81813.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1283",
+        "area": "大兴",
+        "province": "北京"
+    },
+    {
+        "name": "北京星月湖农业休闲观光园",
+        "price": "60",
+        "dates": [
+            "2020.4.1",
+            "2020.11.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.11.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/cc414e3e5ec041c8ac41bc69dda77093.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1284",
+        "area": "大兴",
+        "province": "北京"
+    },
+    {
+        "name": "航天科普教育冰雪乐园",
+        "price": "180",
+        "dates": [
+            "2020.1.2",
+            "2020.2.20"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.2-2020.2.20",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2dba983ae58046629443b45a3100b99c.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1285",
+        "area": "大兴",
+        "province": "北京"
+    },
+    {
+        "name": "航天科普教育军旅体验",
+        "price": "30",
+        "dates": [
+            "2020.4.1",
+            "2020.6.30",
+            "2020.9.1",
+            "2020.11.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.6.30、2020.9.1-2020.11.30",
+        "notice": "免门票1次，周末、法定节假日使用，平日无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/223444922e564d13b9c1a8db04301e30.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1286",
+        "area": "大兴",
+        "province": "北京"
+    },
+    {
+        "name": "航天科普教育越野车体验",
+        "price": "60",
+        "dates": [
+            "2020.4.1",
+            "2020.6.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.6.30",
+        "notice": "免门票1次，周末、法定节假日使用，平日无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1f3de303b9244c328fb77d899bb7e853.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1287",
+        "area": "大兴",
+        "province": "北京"
+    },
+    {
+        "name": "老宋瓜园",
+        "price": "50",
+        "dates": [
+            "2020.3.25",
+            "2020.11.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.25-2020.11.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/351ab10aa89d424293a162a6faa16303.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1085",
+        "area": "大兴",
+        "province": "北京"
+    },
+    {
+        "name": "世界月季主题园",
+        "price": "60",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/31bb1f71ae6346199877bafdb95a62ee.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1090",
+        "area": "大兴",
+        "province": "北京"
+    },
+    {
+        "name": "哈比小镇（通票）(主题场馆)",
+        "price": "178",
+        "dates": [
+            "2019.10.1",
+            "2019.11.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2019.11.30",
+        "notice": "免门票1次（不含电玩项目，成人儿童需自备袜子）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1033b43bc14549d791154685972fff23.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1113",
+        "area": "大兴",
+        "province": "北京"
+    },
+    {
+        "name": "秦王湖(3A)",
+        "price": "50",
+        "dates": [
+            "2019.9.15",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.15-2020.12.31",
+        "notice": "免门票不限次，玻璃栈道10元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e1834a69aa83473b9110221965bad10e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1153",
+        "area": "邢台",
+        "province": "河北"
+    },
+    {
+        "name": "九龙峡(4A)",
+        "price": "60",
+        "dates": [
+            "2019.9.1",
+            "2019.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2019.12.31",
+        "notice": "免门票不限次，需交保险费10元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/c54ce625e8ca43eb9173faa381d5c8bf.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1352",
+        "area": "邢台",
+        "province": "河北"
+    },
+    {
+        "name": "凤凰崖",
+        "price": "50",
+        "dates": [
+            "2020.4.1",
+            "2020.11.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.11.15",
+        "notice": "免门票不限次，需交保险费10元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2cab8304c230450eb6d5c211de527e8a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1152",
+        "area": "邢台",
+        "province": "河北"
+    },
+    {
+        "name": "前南峪(4A)",
+        "price": "60",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，需交保险费10元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1366d02f93354d7482a344603eac848f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1231",
+        "area": "邢台",
+        "province": "河北"
+    },
+    {
+        "name": "兴台古镇忠义阁（3A）",
+        "price": "40",
+        "dates": [
+            "2019.10.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/4a522521866f4e07a3b2ea8b582aeefd.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1155",
+        "area": "邢台",
+        "province": "河北"
+    },
+    {
+        "name": "张果老山(2A)",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": true,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/85e26cf6731948c690941627125e834a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1154",
+        "area": "邢台",
+        "province": "河北"
+    },
+    {
+        "name": "紫金山(4A)",
+        "price": "60",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e9880789bdab4a07bac48909d18c94cc.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1354",
+        "area": "邢台",
+        "province": "河北"
+    },
+    {
+        "name": "扁鹊庙(4A)",
+        "price": "40",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/178ef56b0ebb41d2876d9db37c5da116.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1230",
+        "area": "邢台",
+        "province": "河北"
+    },
+    {
+        "name": "纪晓岚文化园（3A）",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/d75ad91b89e14e2aaedaffc3c7c4ccb3.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1232",
+        "area": "沧州",
+        "province": "河北"
+    },
+    {
+        "name": "金海湖风景区 (4A)",
+        "price": "40",
+        "dates": [
+            "2020.3.15",
+            "2020.11.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.15-2020.11.15",
+        "notice": "免门票不限次，法定节假日期间无效，团队无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a33e4a5882b742e7aecb33b886d86e07.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1293",
+        "area": "平谷",
+        "province": "北京"
+    },
+    {
+        "name": "京东老泉山野公园(2A)",
+        "price": "30",
+        "dates": [
+            "2020.4.1",
+            "2020.10.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.30",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/92baea753e9842708e8a18ca553b1adc.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1184",
+        "area": "平谷",
+        "province": "北京"
+    },
+    {
+        "name": "可鑫生态玫瑰园",
+        "price": "30",
+        "dates": [
+            "2020.4.1",
+            "2020.10.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.30",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/08621ef806664bc7957d662593d12048.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1207",
+        "area": "平谷",
+        "province": "北京"
+    },
+    {
+        "name": "老象峰风景(2A)",
+        "price": "20",
+        "dates": [
+            "2020.5.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.31",
+        "notice": "免门票不限次，采摘5折",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/5bd478b7d7e44b16a18509b9982ce4ec.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1185",
+        "area": "平谷",
+        "province": "北京"
+    },
+    {
+        "name": "西苑温泉享水湾（4A）",
+        "price": "168",
+        "dates": [
+            "2019.11.1",
+            "2019.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.11.1-2019.12.31",
+        "notice": "免门票1次 ，团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ffb0b4c7e93d453fb6761584e1b9e896.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1143",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "天山海世界戏水乐园（4A）",
+        "price": "168",
+        "dates": [
+            "2019.11.1",
+            "2020.1.9"
+        ],
+        "dateNotce": "（11：00-17：00）",
+        "dateTxt": "2019.11.1-2020.1.9（11：00-17：00）",
+        "notice": "免门票1次，每周一设备维护不接待",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a8f055a811de44c08079269b83a26329.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1135",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "红崖谷(4A)",
+        "price": "138",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，不含二次收费项目",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b273b68ccd584d3a805b28f31b1be068.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1130",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "佛光山(4A)",
+        "price": "60",
+        "dates": [
+            "2019.9.1",
+            "2020.5.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.5.31",
+        "notice": "免门票不限次（因景区升级改造，暂停接待，接待时间另行通知！）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/93aa7ab8e2384dbda1f0e7cc916d206a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1131",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "苍鹭峰",
+        "price": "45",
+        "dates": [
+            "2019.9.1",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.10.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e220409af9074a09885d1c72b21f83fc.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1132",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "赵州桥(4A)",
+        "price": "40",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，大年三十闭园一天",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e9da6ced6b824bbd918e6b9da80e696a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1136",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "赵州桥科技馆",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，大年三十闭馆一天 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/8c1f12997fec4a1e84692bb7383e71db.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1138",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "赵州桥展览馆",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，大年三十闭馆一天",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/6d7fc483763e4d6286d000138ce89298.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1137",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "沕沕水生态风景区（4A）",
+        "price": "65",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "优惠购门票一次，需自付25元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/cdc7da53c6ed4d619553ecadaf06f580.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1129",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "中国宫灯博物馆",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/d78a2d3d55ab4e19950f6b34bcf6cbba.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1133",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "常河•常馨谷",
+        "price": "35",
+        "dates": [
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9b938a3dabf8400dbf6cc29766ac84b5.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1147",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "荣国府(4A)",
+        "price": "40",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "八折优惠1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a79e4a21685a4f5fbf48f3da2c7c6864.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1134",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "河北地质大学地球科学博物馆",
+        "price": "25",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，周一、周四闭馆",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1de6827a22794a11a985025f42f18aab.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1141",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "秦皇古驿道",
+        "price": "25",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/64329aa369514aafb07584bbac54fcce.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1139",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "藤龙山 (4A)",
+        "price": "65",
+        "dates": [
+            "2020.3.10",
+            "2020.11.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.10-2020.11.15",
+        "notice": "免门票不限次，五一、十一假期期间持卡半价优惠 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a7fb6de76a1e4314968cdf7420b7489e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1140",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "黑山大峡谷(4A)",
+        "price": "65",
+        "dates": [
+            "2020.5.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/57aaa623fb89492abe9fe3056777bbbd.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1142",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "柏坡水寨",
+        "price": "50",
+        "dates": [
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/02f8c77b94644cfca38118bc5923020d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1146",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "抱犊寨(4A)",
+        "price": "65",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1c7cb73b7d3344ffa282a4b61f1b25de.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1145",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "驼梁 (4A)",
+        "price": "65",
+        "dates": [
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.31",
+        "notice": "免门票1次，7、8月份及国家法定节假日期间持卡无效、旅行社无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e3116377c43e4ddbab4583d8313380d0.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1297",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "伏羲台(3A)",
+        "price": "15",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，腊月二十五至正月初一停止接待",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/fa49658048b24891882d25d0ada1698f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1144",
+        "area": "石家庄",
+        "province": "河北"
+    },
+    {
+        "name": "尚荷园湿地公园",
+        "price": "20",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/29516622cd1741b8bc9ffe70cb124131.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1351",
+        "area": "廊坊",
+        "province": "河北"
+    },
+    {
+        "name": "HI JUMP蹦床主题公园",
+        "price": "88",
+        "dates": [
+            "2019.10.1",
+            "2019.11.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2019.11.30",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/c72e7f26baf1456f820d1857c9fa78f0.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1365",
+        "area": "廊坊",
+        "province": "河北"
+    },
+    {
+        "name": "庄络亲子农庄场",
+        "price": "50",
+        "dates": [
+            "2019.10.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a0e3fb9731a84f2282d45ad5f65a122d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1126",
+        "area": "廊坊",
+        "province": "河北"
+    },
+    {
+        "name": "茗汤温泉度假村（4A）",
+        "price": "168",
+        "dates": [
+            "2019.9.21",
+            "2019.12.5"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.21-2019.12.5",
+        "notice": "优惠购门票一次，需自付28元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/994f18aabeb145b189046a3a69bd3f64.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1127",
+        "area": "廊坊",
+        "province": "河北"
+    },
+    {
+        "name": "金丰农科园(4A)",
+        "price": "60",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，香蕉馆含三个项目（VR、狩猎英雄、台球）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/44b735e5308b460fa70bb8e4e9144f96.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1124",
+        "area": "廊坊",
+        "province": "河北"
+    },
+    {
+        "name": "昌宁号茶铺万向城店",
+        "price": "28",
+        "dates": [
+            "2019.10.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2020.12.31",
+        "notice": "免门票一次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/591867dc7aa1451397c0b9b644a7e074.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1366",
+        "area": "廊坊",
+        "province": "河北"
+    },
+    {
+        "name": "富国海底世界（夜场）",
+        "price": "150",
+        "dates": [
+            "2019.10.1",
+            "2019.10.31"
+        ],
+        "dateNotce": "（17:00-20:00），19:30停止检票",
+        "dateTxt": "2019.10.1-2019.10.31（17:00-20:00），19:30停止检票",
+        "notice": "免门票1次，团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/da025445ff394e198bc4a000cd5ebc88.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1377",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "北京欢乐谷--金面王朝夜场(4A)",
+        "price": "280",
+        "dates": [
+            "2019.10.8",
+            "2019.11.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.8-2019.11.30",
+        "notice": "免门票1次，法定节假日期间无效，需在一卡通官方微信公众号预约成功后方可接待，约满为止。2019年10月16日至2019年11月30日演出时间改为15:30。 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2e5a0d003ff141618b185923b3a307b8.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1203",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "奥林匹克塔（夜场） (5A)",
+        "price": "160",
+        "dates": null,
+        "dateTxt": "2019.11月-12月、2020.2月（17：00-20:00），19：30前停止检票。",
+        "notice": "免门票1次，需在一卡通官方微信公众号预约成功后方可接待，约满为止。 ",
+        "special": true,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7289d813d3cb40fda4041aab02d621bc.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1332",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "晋商博物馆",
+        "price": "50",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，周一闭馆、春节假期闭馆、团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/efd0b7d640a3483fbc95b9fd8ed272b1.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1205",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "蓝调马术俱乐部",
+        "price": "198",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次，需提前一天电话预约",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/86f6382819f74f15bf01f09c7a56d9dc.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1240",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "中国木偶剧院（主题场馆）",
+        "price": "100",
+        "dates": [
+            "2019.9.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.12.31",
+        "notice": "优惠购门票1次，每周六、日、节假日演出每天2场，需现场自付30元/人。需在一卡通官方微信公众号预约成功后方可接待，约满为止。（平日无演出）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f8b92e817edf4c4a9f23f3e840ef7ff3.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1114",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "活的3D壁画馆",
+        "price": "75",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次,法定节假日期间、暑假期间需在一卡通官方微信公众号预约成功后方可接待，约满为止。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/776c6b1845a74d318c1d079c1b7acc5e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1356",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "数字海洋馆",
+        "price": "50",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次,周二闭馆，法定节假日期间、暑假期间需在一卡通官方微信公众号预约成功后方可接待，约满为止。1.2米以下儿童正常收费",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/8766adc00a7e4e2788b6f086b711179b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1357",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "香江冰雪嘉年华",
+        "price": "160",
+        "dates": [
+            "2019.12.14",
+            "2020.2.20"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.12.14-2020.2.20",
+        "notice": "免门票1次，含门票及项目二选一",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/281ccf9294824a4c8e28e2713a5d2455.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1087",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "香江动感天地高山滑草",
+        "price": "80",
+        "dates": [
+            "2019.9.15",
+            "2019.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.15-2019.10.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ce75ba64db614a97be3fe90c3da2f708.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1088",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "兴隆公园冰雪嘉年华",
+        "price": "160",
+        "dates": [
+            "2019.12.14",
+            "2020.2.20"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.12.14-2020.2.20",
+        "notice": "免门票1次，含门票及项目三选二",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/17f4ada8a4ab4116bc3fbff331ff02ad.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1089",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "蟹岛依格鲁冰雪嘉年华（4A）",
+        "price": "88",
+        "dates": [
+            "2019.12.20",
+            "2020.2.28"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.12.20-2020.2.28",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/32a02e9840154126a1b746fa61e3831b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1241",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "蟹岛依格鲁游乐学院（4A）",
+        "price": "120",
+        "dates": [
+            "2020.3.10",
+            "2020.6.15",
+            "2020.9.10",
+            "2020.11.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.10-2020.6.15、2020.9.10-2020.11.30",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/77a65a47a0d94d27a77c609922cd79d3.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1242",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "蟹岛依格鲁水世界",
+        "price": "88",
+        "dates": [
+            "2020.6.20",
+            "2020.8.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.20-2020.8.30",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ffb3d0ec96e748dd890068d4660714e1.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1243",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "好嗨哟秋嗨",
+        "price": "60",
+        "dates": [
+            "2019.10.15",
+            "2019.11.15",
+            "2020.3.20",
+            "2020.5.20"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.15-2019.11.15  2020.3.20-2020.5.20",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2f50ae0ccb8e41e29ab0d8c7a648a995.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1043",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "好嗨哟夏嗨",
+        "price": "60",
+        "dates": [
+            "2020.7.15",
+            "2020.8.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.7.15-2020.8.30",
+        "notice": "免门票1次，以实际开园时间为准",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2645709cf6714a04afdcc9c77ee7816b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1071",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "好嗨哟冬嗨",
+        "price": "60",
+        "dates": [
+            "2019.12.16",
+            "2020.2.10"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.12.16-2020.2.10",
+        "notice": "免门票1次，以实际开园时间为准",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/34eda3221ef04768882c0517af8b35e7.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1072",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "胜道博岳卡丁车馆",
+        "price": "188",
+        "dates": [
+            "2019.9.1",
+            "2019.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2019.12.31",
+        "notice": "免门票1次，节假日、周六、周日需现场补50元差价",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/638ad6da21c2480382524b98939e06aa.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1244",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "798探洞工场（主题场馆）",
+        "price": "78",
+        "dates": [
+            "2019.9.1",
+            "2020.9.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.9.30",
+        "notice": "免门票1次，节假日需在一卡通官方微信公众号预约成功后方可接待，约满为止。（洞内游玩时，全程为爬行状态，有洞内攀岩等难度较大的障碍，为保证游玩安全，身高在1米以下或年龄超过50岁的成人禁止入洞游玩）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2081771119bc48ed8b29d3fe2617ae94.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1039",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "望和公园奥普乐冰雪世界",
+        "price": "79",
+        "dates": [
+            "2019.12.1",
+            "2020.2.28"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.12.1-2020.2.28",
+        "notice": "免门票1次，具体营业时间以雪场为主（因天气原因暂未开放）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/608d0cf1edb94b3a9cf43ea571b5a4f5.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1116",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "望和公园奥普乐水上乐园",
+        "price": "60",
+        "dates": [
+            "2020.6.10",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.10-2020.8.31",
+        "notice": "免门票1次，以景区实际营业时间为准",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/0b0d1790880748968a357680488baf1e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1117",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "蓝调薰衣草庄园",
+        "price": "60",
+        "dates": [
+            "2020.6.10",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.10-2020.10.31",
+        "notice": "免门票不限次，遇重大活动期间持卡无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/5600e4f8c0d44600b12ee3208b812208.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1245",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "蓝调庄园温泉（4A）",
+        "price": "140",
+        "dates": [
+            "2019.10.8",
+            "2019.11.30",
+            "2020.2.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "（09:00-23:00；22:30清场）",
+        "dateTxt": "2019.10.8-2019.11.30、2020.2.1-2020.3.31（09:00-23:00；22:30清场）",
+        "notice": "免门票1次，限时4小时，超时按30元/每小时自付费。需在一卡通官方微信公众号预约成功后方可接待，约满为止，团队无效。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/478a2bf3572640068a28d87a72d7b13c.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1246",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "蓝调庄园滑雪",
+        "price": "99",
+        "dates": [
+            "2019.12.5",
+            "2020.2.28"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.12.5-2020.2.28",
+        "notice": "免门票1次，需在一卡通官方微信公众号预约成功后方可接待，约满为止。滑雪限时4小时含雪具，超时按30元/小时自付费。（因受天气影响，开放时间以雪场为准）元旦、春节期间无效，团队无效。1.4米以下儿童半价。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ad297332f76d4166ae32a9838b8d3cb8.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1247",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "蓝调非遗手工文化馆",
+        "price": "15",
+        "dates": [
+            "2019.9.15",
+            "2020.9.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.15-2020.9.15",
+        "notice": "免门票1次（儿童免费体验一项手工项目）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a949896c62814c76b6156ac2036a379b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1115",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "中国紫檀博物馆（4A）",
+        "price": "50",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，周一闭馆，春节三十至初三闭馆",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/3c06fd3ef151491baabe630269b17e5e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1078",
+        "area": "朝阳区",
+        "province": "北京"
+    },
+    {
+        "name": "黄金海岸国际滑沙中心（4A）",
+        "price": "135",
+        "dates": [
+            "2019.9.8",
+            "2019.10.8"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.8-2019.10.8",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7ea8c99c05fc45ffbfbc0b413ac176de.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1128",
+        "area": "秦皇岛",
+        "province": "河北"
+    },
+    {
+        "name": "南戴河海生活体验园",
+        "price": "200",
+        "dates": [
+            "2020.3.25",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.25-2020.10.31",
+        "notice": "免门票不限次，限时免费体验项目以现场实际体验项目为准，建议电话咨询：13333326869 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/fd860fb5513f49d1904228bf665490d7.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1327",
+        "area": "秦皇岛",
+        "province": "河北"
+    },
+    {
+        "name": "白石山(5A)",
+        "price": "135",
+        "dates": [
+            "2019.11.1",
+            "2019.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.11.1-2019.12.31",
+        "notice": "免门票1次，上山交通费需自付，旅行社团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e95eede0b2c74614b0c66822d0270add.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1333",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "绿溪谷乐园(主题场馆)",
+        "price": "138",
+        "dates": null,
+        "dateTxt": "2019.11月、12月、2020.3月、9月",
+        "notice": "免门票1次，团队无效",
+        "special": true,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7e6e8b4ebc704588be89d477fd74e71b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1301",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "野三坡白草畔（5A）",
+        "price": "60",
+        "dates": [
+            "2020.5.4",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.4-2020.10.15",
+        "notice": "免门票1次，法定节假日期间持卡无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/93716d8a194e40779d2ca61527a8690d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1298",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "清西陵（通票）永福寺（4A）",
+        "price": "15",
+        "dates": [
+            "2020.2.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.2.1-2020.3.31",
+        "notice": "免门票1次(持卡统一到综合服务区换票）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/de39174d356d450c85823008e30879bd.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1376",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "清西陵（通票）崇陵（4A）",
+        "price": "45",
+        "dates": [
+            "2020.2.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.2.1-2020.3.31",
+        "notice": "免门票1次(持卡统一到综合服务区换票）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2cefb1dc69cb4ba6bd306e53ab0458f9.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1375",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "清西陵（通票）慕陵（4A）",
+        "price": "10",
+        "dates": [
+            "2020.2.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.2.1-2020.3.31",
+        "notice": "免门票1次(持卡统一到综合服务区换票）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9c0ae8d7f9244ef096df7ef20ca6f1c6.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1374",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "清西陵（通票）泰陵（4A）",
+        "price": "45",
+        "dates": [
+            "2020.2.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.2.1-2020.3.31",
+        "notice": "免门票1次(持卡统一到综合服务区换票）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/d27474b12fc34dd0b828f0dd7ce017ef.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1372",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "雄安保府酒文化园（4A）",
+        "price": "25",
+        "dates": [
+            "2019.11.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "（9:00-16:00）",
+        "dateTxt": "2019.11.1-2020.10.31（9:00-16:00）",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/4873b1c9d3ae405ea421229483fc00ce.jpg",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1698",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "定州黄家葡萄酒庄（3A）",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ca05f9ca93fa4ff2bc12d3cf8d0dfa88.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1300",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "保定植物园游船",
+        "price": "60",
+        "dates": [
+            "2020.6.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.1-2020.10.31",
+        "notice": "免门票1次，限1小时，端午、中秋、十一期间持卡无效、团队无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/638162919188481ca53e27f595c45a3e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1302",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "爱保中华大熊猫苑",
+        "price": "58",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次，团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/57af9bf4db794a77bcf3a8ab60f45329.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1303",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "秀水峪(3A)",
+        "price": "38",
+        "dates": [
+            "2020.4.10",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.10-2020.10.31",
+        "notice": "免门票不限次，五一、十一假期期间持卡无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9601166f66e4470dafae33c5d37bee7f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1304",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "天悦影城（东贸店）",
+        "price": "80",
+        "dates": [
+            "2019.11.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.11.1-2020.3.31",
+        "notice": "免门票1次（不包含特殊厅）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9a07826014174f3098168b7dc001e0ba.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1237",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "腰山王氏庄园（3A）",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/6b3f00d7d4dc453abd84220b836ca396.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1104",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "华峪山庄(3A)",
+        "price": "35",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/aacd9b372d4f4f5d8ee0105ddd6e0a22.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1061",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "三义宫(3A)",
+        "price": "20",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b9ed5fcc64aa4966a819d99c8296be6f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1189",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "秀兰文化园",
+        "price": "57",
+        "dates": [
+            "2019.9.15",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.15-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e50893a2eadc4f6aa5c0e3b07166bd2f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1103",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "低碳公园",
+        "price": "20",
+        "dates": [
+            "2019.9.1",
+            "2020.6.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.6.30",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/87eac3f1c2db45daa69b08c7135f697f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1306",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "唐河九女旺漂流",
+        "price": "80",
+        "dates": [
+            "2020.5.1",
+            "2020.10.6"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.6",
+        "notice": "免门票1次，旅行社团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7d1f0b9dcebf41dc9e210b503cbaf226.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1339",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "白洋淀嘎子印象(5A)",
+        "price": "40",
+        "dates": [
+            "2019.9.1",
+            "2019.10.7",
+            "2020.4.15",
+            "2020.10.7"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2019.10.7、2020.4.15-2020.10.7",
+        "notice": "免门票不限次，需提前电话预约，自付入淀费、船费，嘎子印象、异国风情园、荷花大观园三个景区共需99元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/4e9004ca3a864a14b571da3cbe568aa7.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1307",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "白洋淀异国风情园(5A)",
+        "price": "40",
+        "dates": [
+            "2019.9.1",
+            "2019.10.7",
+            "2020.4.15",
+            "2020.10.7"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2019.10.7、2020.4.15-2020.10.7",
+        "notice": "免门票不限次，需提前电话预约，自付入淀费、船费，嘎子印象、异国风情园、荷花大观园三个景区共需99元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/cbaf150a1c1448cba342b68d07d6041a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1308",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "白洋淀荷花大观园(5A)",
+        "price": "40",
+        "dates": [
+            "2019.9.1",
+            "2019.10.7",
+            "2020.4.15",
+            "2020.10.7"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2019.10.7、2020.4.15-2020.10.7",
+        "notice": "免门票不限次，需提前电话预约，自付入淀费、船费，嘎子印象、异国风情园、荷花大观园三个景区共需99元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ca627b56242d46e6b339fa584b75385c.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1309",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "美泉世界温泉",
+        "price": "129",
+        "dates": [
+            "2020.6.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.1-2020.8.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2ba7e019da6a482f8b351454097c06fe.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1311",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "贵宾楼汤泉",
+        "price": "58",
+        "dates": [
+            "2020.7.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.7.1-2020.8.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7436327963da4185b508bec75817e715.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1312",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "贵宾楼汗蒸",
+        "price": "68",
+        "dates": [
+            "2020.7.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.7.1-2020.8.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2981735157da46308faf9c7a1ba97e0d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1313",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "康乐宫",
+        "price": "58",
+        "dates": [
+            "2020.7.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.7.1-2020.8.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f9923d4d78924a578790ceb462638821.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1314",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "蕾莎激光巨幕影城",
+        "price": "35",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/d6d75f0c573e42f0b323249403f4c351.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1315",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "幕维国际影城",
+        "price": "60",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/28caff9fe693474594d8118c53a5ac2f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1340",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "康圣健身—健身",
+        "price": "68",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/947ded25ddfb4962b05efacf166fcc9c.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1316",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "康圣健身-汗蒸",
+        "price": "38",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/864f5e76a2584f7ba4d46bb55ad35739.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1317",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "欢乐城水上乐园",
+        "price": "58",
+        "dates": [
+            "2019.10.1",
+            "2019.11.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2019.11.30",
+        "notice": "免门票1次，衣柜自费，团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/88cf241a998441e18175d0e48b0a7f14.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1107",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "云蒙山皇家森林公园（3A）",
+        "price": "40",
+        "dates": [
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/6198a8d2b96543888ce4f0cc8118d630.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1108",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "金浪屿玉洋温泉",
+        "price": "138",
+        "dates": [
+            "2020.4.1",
+            "2020.5.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.5.31",
+        "notice": "免门票1次，清明、五一假期期间持卡无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/4cf5e5f2484d4cf4bb7a800910162190.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1105",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "野三坡清泉山景区",
+        "price": "45",
+        "dates": [
+            "2020.5.1",
+            "2020.10.7"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.7",
+        "notice": "不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/106b3efe7eae4195aee02fbdf70b5b42.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1106",
+        "area": "保定",
+        "province": "河北"
+    },
+    {
+        "name": "潘家口水库",
+        "price": "30",
+        "dates": [
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ad17502472b143fd920cca6fa4fc04d8.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1063",
+        "area": "唐山",
+        "province": "河北"
+    },
+    {
+        "name": "凤凰山旅游区(3A)",
+        "price": "40",
+        "dates": [
+            "2020.3.15",
+            "2020.10.25"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.15-2020.10.25",
+        "notice": "免门票不限次，团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/6bf125f1b0034c67a55ad517dc765062.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1353",
+        "area": "唐山",
+        "province": "河北"
+    },
+    {
+        "name": "京东龙泉谷景区（3A）",
+        "price": "30",
+        "dates": [
+            "2020.4.1",
+            "2020.11.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.11.30",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/8ccfd929425d45aeb0d67106a40271a3.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1344",
+        "area": "唐山",
+        "province": "河北"
+    },
+    {
+        "name": "挂云山",
+        "price": "50",
+        "dates": [
+            "2019.9.10",
+            "2019.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.10-2019.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f2b6d83191c647d5bfe14b7575d4de78.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1149",
+        "area": "唐山",
+        "province": "河北"
+    },
+    {
+        "name": "环城水系(3A)",
+        "price": "70",
+        "dates": [
+            "2020.4.1",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.15",
+        "notice": "免门票不限次，法定节假日期间无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/988350db728b424bb781a3a712709977.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1170",
+        "area": "唐山",
+        "province": "河北"
+    },
+    {
+        "name": "喜峰雄关大刀园（3A）",
+        "price": "60",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/0f01e20fecb74c24b0e4faa168f4f723.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1076",
+        "area": "唐山",
+        "province": "河北"
+    },
+    {
+        "name": "杏花谷",
+        "price": "20",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/df63d47e796a46ba9f1b4f90061272e5.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1077",
+        "area": "唐山",
+        "province": "河北"
+    },
+    {
+        "name": "五虎山(3A)",
+        "price": "30",
+        "dates": [
+            "2020.4.15",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.15-2020.10.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/5d81c6cbac364dfd9c918ae3034eae93.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1175",
+        "area": "唐山",
+        "province": "河北"
+    },
+    {
+        "name": "万佛园(4A)",
+        "price": "50",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a427ab26abaf484483de3448aa2e0523.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1169",
+        "area": "唐山",
+        "province": "河北"
+    },
+    {
+        "name": "景忠山 (4A)",
+        "price": "65",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，5月6日至5月12日庙会期间持卡无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b97b34d4ec5e4eafab05eab00ca13f74.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1058",
+        "area": "唐山",
+        "province": "河北"
+    },
+    {
+        "name": "成山自然景区（2A）",
+        "price": "40",
+        "dates": [
+            "2020.4.1",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/5ee31f50a9f846d69ec9078e442ebde7.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1180",
+        "area": "唐山",
+        "province": "河北"
+    },
+    {
+        "name": "东方启明星",
+        "dates": [
+            "2020年12月31"
+        ],
+        "dateNotce": "日",
+        "dateTxt": "即日起至2020年12月31日",
+        "notice": "",
+        "special": true,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/fe73a877716340c992d23f15b73ba781.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1703",
+        "area": "新增景区"
+    },
+    {
+        "name": "雄安保府酒文化园（4A）",
+        "price": "25",
+        "dates": [
+            "2019.11.15",
+            "2020.10.31"
+        ],
+        "dateNotce": "（9:00-16:00）",
+        "dateTxt": "2019.11.15-2020.10.31（9:00-16:00）",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/4873b1c9d3ae405ea421229483fc00ce.jpg",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1698",
+        "area": "新增景区"
+    },
+    {
+        "name": "刘伶醉景区（4A）",
+        "dates": [
+            "2020.1.1",
+            "2020.6.30"
+        ],
+        "dateNotce": "（8:00-17:30）",
+        "dateTxt": "2020.1.1-2020.6.30（8:00-17:30）",
+        "notice": "年满18周岁，凭身份证可免费领取价值99元礼品酒一份（限1次）",
+        "special": true,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/40047d87c0f3470c82b4697e124f4f6c.jpg",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1696",
+        "area": "新增景区"
+    },
+    {
+        "name": "东太行旅游景区",
+        "price": "140",
+        "dates": [
+            "2019.10.8",
+            "2019.11.30",
+            "2020.3.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.8-2019.11.30、2020.3.1-2020.3.31",
+        "notice": "免门票不限次（不含景区二次消费） ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/edbd69f7cf2f4380b63db238aaad9e79.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1368",
+        "area": "新增景区"
+    },
+    {
+        "name": "梨木台（4A）",
+        "price": "70",
+        "dates": null,
+        "dateTxt": "2020年4月、6月、9月",
+        "notice": "免门票1次（法定节假日期间不可用），摆渡车需自费，不含保险。其他月份享受通票优惠。 ",
+        "special": true,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/65d94eb30e1b4fb8b37f3bcf3d7df888.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1371",
+        "area": "新增景区"
+    },
+    {
+        "name": "清西陵（通票）永福寺（4A）",
+        "price": "15",
+        "dates": [
+            "2020.2.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.2.1-2020.3.31",
+        "notice": "免门票1次(持卡统一到综合服务区换票）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ac77f8a770b74212b1efa066e1bc006e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1376",
+        "area": "新增景区"
+    },
+    {
+        "name": "清西陵（通票）崇陵（4A）",
+        "price": "45",
+        "dates": [
+            "2020.2.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.2.1-2020.3.31",
+        "notice": "免门票1次(持卡统一到综合服务区换票）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/722701ad10bc4e7ca230d5e589220ba6.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1375",
+        "area": "新增景区"
+    },
+    {
+        "name": "清西陵（通票）慕陵（4A）",
+        "price": "10",
+        "dates": [
+            "2020.2.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.2.1-2020.3.31",
+        "notice": "免门票1次(持卡统一到综合服务区换票）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9ffe38c5feec4ac3a9f8834fa0990019.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1374",
+        "area": "新增景区"
+    },
+    {
+        "name": "清西陵（通票）昌西陵（4A）",
+        "price": "20",
+        "dates": [
+            "2020.2.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.2.1-2020.3.31",
+        "notice": "免门票1次(持卡统一到综合服务区换票）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/cb80c12a0ec04a909b7eecef2fd6af3a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1373",
+        "area": "新增景区"
+    },
+    {
+        "name": "清西陵（通票）泰陵（4A）",
+        "price": "45",
+        "dates": [
+            "2020.2.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.2.1-2020.3.31",
+        "notice": "免门票1次(持卡统一到综合服务区换票）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2e7ae6db97404243a9aa777ee2d18679.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1372",
+        "area": "新增景区"
+    },
+    {
+        "name": "活的3D壁画馆",
+        "price": "75",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次，法定节假日期间、暑假期间需在一卡通官方微信公众号预约成功后方可接待，约满为止。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/5478463e486c4003a48b5c956d2059c8.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1356",
+        "area": "新增景区"
+    },
+    {
+        "name": "数字海洋馆",
+        "price": "50",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次,周二闭馆，法定节假日期间、暑假期间需在一卡通官方微信公众号预约成功后方可接待，约满为止。1.2米以下儿童正常收费。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ddac2b56a8d3447db3b6a7c3bcb71830.jpg",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1357",
+        "area": "新增景区"
+    },
+    {
+        "name": "七步沟景区（4A）",
+        "price": "80",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票1次,持卡需付10元保险费",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/8d5c5963dbda4807bc564b0e2682da1e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1369",
+        "area": "新增景区"
+    },
+    {
+        "name": "东山文化博艺园(4A)",
+        "price": "40",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/0722c86e646c403fbced2b9659a5b2e3.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1367",
+        "area": "新增景区"
+    },
+    {
+        "name": "长寿村(4A)",
+        "price": "50",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/0714e459fd1549179db9fa6f04214793.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1363",
+        "area": "新增景区"
+    },
+    {
+        "name": "黄粱梦吕仙祠(3A)",
+        "price": "30",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次（农历四月初八至四月十一庙会期间、十一假期无效，团队需补差价）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/905f762556cd48a4b486a5cf76c8aecd.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1360",
+        "area": "新增景区"
+    },
+    {
+        "name": "太行药王谷",
+        "price": "68",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/6faab7659df5483ab74b2779069b9e8d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1359",
+        "area": "新增景区"
+    },
+    {
+        "name": "小仓会员制农场",
+        "price": "50",
+        "dates": [
+            "2019.9.15",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.15-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/601f60de2ead42859448ae2b6a79773c.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1370",
+        "area": "新增景区"
+    },
+    {
+        "name": "高塔光影秀-巅峰震撼（实景演出）(主题场馆）",
+        "price": "118",
+        "dates": [
+            "2019.9.1",
+            "2019.9.30",
+            "2020.6.1",
+            "2020.9.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2019.9.30、2020.6.1-2020.9.30",
+        "notice": "免门票1次，每周五、六演出",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a9270e960e2041149cf4c35dfae33e69.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1321",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "假日绿岛欢乐农场（3A）",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次（景区活动期间票价高于30元时需补差价）遇政府重大活动期间卡无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/304db4bee1d643d296a343409017fc8a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1161",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "易源北魏皇家温泉 ",
+        "price": "78",
+        "dates": [
+            "2020.1.1",
+            "2020.2.28"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.2.28",
+        "notice": "免门票1次，需交卫生费平日10元/人，周末及节假日20元/人 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/bd29c52255574601aa60092456d4cbc8.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1318",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "蔚州古城（玉皇阁）（3A）",
+        "price": "20",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/45136776f09348ba8e9d32e59951099b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1319",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "蔚州古城（蔚州署）（3A）",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/778e8178b5c84d73b31235ea282868a2.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1320",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "黑龙山国家森林公园（4A）",
+        "price": "38",
+        "dates": [
+            "2020.6.1",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.1-2020.10.15",
+        "notice": "免门票2次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2cca079d0b6f4c7a967b5c99df59f86f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1159",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "康路温泉度假村",
+        "price": "58",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/620ed1ac1579404aa14c5b346106ccf1.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1341",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "暖泉花田",
+        "price": "60",
+        "dates": [
+            "2020.5.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/bbb811f7c41c4490be6b12857066d544.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1187",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "山成生态采摘园",
+        "price": "88",
+        "dates": [
+            "2020.8.1",
+            "2020.10.3"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.8.1-2020.10.3",
+        "notice": "免费采摘3斤果蔬一次（葡萄、玉米、红薯三选一） ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/697c453558ba4266b0f32a6e09d3bbf6.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1342",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "明珠山庄温泉",
+        "price": "88",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次，需在一卡通官方微信公众号预约成功后方可接待，约满为止。 自付卫生费5元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/923c042e94a94614984672cb56d79fe1.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1160",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "安固里草原度假村 (3A)",
+        "price": "50",
+        "dates": [
+            "2020.6.8",
+            "2020.9.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.8-2020.9.30",
+        "notice": "免门票不限次，含民族服装、射箭、拓展 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/6f77247ecd7143c990a1532cedf16b31.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1226",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "上马山漂流",
+        "price": "80",
+        "dates": [
+            "2020.6.1",
+            "2020.9.10"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.1-2020.9.10",
+        "notice": "免门票1次，“受天气影响，以景区实际接待时间为准",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/24524b2604c04dc7b6c9fe65da3b3238.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1163",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "元中都博物馆",
+        "price": "40",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b9f3995cb72a480f86c570ae895837fe.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1164",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "元中都国家考古遗址公园",
+        "price": "40",
+        "dates": [
+            "2020.6.1",
+            "2020.10.7"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.1-2020.10.7",
+        "notice": "免门票不限次，当天只可使用一次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/eecfe48ab9f8459bbb6e814afc9cd741.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1330",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "草原神画 (4A)",
+        "price": "60",
+        "dates": [
+            "2020.5.1",
+            "2020.10.10"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.10",
+        "notice": "免门票不限次（含花海栈道、滦河十八弯、儿童沙坑、农耕体验、网红桥、十八项拓展、滑草1次、射箭5支） ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b47e6b2b50a04c60b98b3c3fec84c0e6.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1227",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "青瓦水乡温泉",
+        "price": "78",
+        "dates": [
+            "2019.10.1",
+            "2019.11.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2019.11.30",
+        "notice": "免门票1次，团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f7bcb78a814449879402c5c1eb30fb5b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1165",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "中粮长城桑干酒庄",
+        "price": "25",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，春节期间持卡无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/0ce0436f68ec4115aeed21f5f6526e0c.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1098",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "黄龙山庄(4A)",
+        "price": "78",
+        "dates": [
+            "2020.4.20",
+            "2020.10.7"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.20-2020.10.7",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/2e2f35037c6642c3ad4f19f040276007.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1097",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "水母宫(2A)",
+        "price": "10",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/70b5bddb62064be7a2c1fa30f5c2d603.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1323",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "沽源天鹅湖景区 (4A)",
+        "price": "40",
+        "dates": [
+            "2020.1.1",
+            "2020.2.28",
+            "2020.6.5",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.2.28  2020.6.5-2020.10.15",
+        "notice": "免门票1次，团队无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/53e200be76424ecca3711d39012578e7.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1324",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "沽源五花草甸景区",
+        "price": "60",
+        "dates": [
+            "2020.6.15",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.15-2020.10.15",
+        "notice": "免门票1次，团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/878397dd6730408d8f8c5a94269a1974.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1343",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "活阳山-老君洞（2A） ",
+        "price": "40",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/aa71aa167839419986da3636689aa444.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1158",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "壶流河畔.龙壶湾(3A)",
+        "price": "52",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/897835fea97b45cda6ef899ebe052c00.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1157",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "沽水福源度假村 (4A)",
+        "price": "50",
+        "dates": [
+            "2020.5.1",
+            "2020.10.7"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.7",
+        "notice": "免门票不限次 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ff5bccfcca8a4d6f8a46dddaf77f45f8.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1156",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "翠云山森林风景度假区（3A）",
+        "price": "50",
+        "dates": [
+            "2020.6.1",
+            "2020.10.7"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.6.1-2020.10.7",
+        "notice": "免门票不限次，不含项目内二次消费；音乐节期间持卡需补差价。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7af44b5e2f29487a86e5707fe83b2e4f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1362",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "安家沟生态旅游区(4A)",
+        "price": "40",
+        "dates": [
+            "2020.4.10",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.10-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a5d7d9b899674c43ba5704713a7f523e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1162",
+        "area": "张家口",
+        "province": "河北"
+    },
+    {
+        "name": "东山文化博艺园(4A)",
+        "price": "40",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f2297c85b5324e24a8f25faecfdce268.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1367",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "长寿村(4A)",
+        "price": "50",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次，团队持卡付10元/人保险差价",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/58903f54c64c47819a337366a607407f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1363",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "黄粱梦吕仙祠(3A)",
+        "price": "30",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次，农历四月初八-四月十一庙会期间持卡无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9dc31f1318d842e09928a37a824ecd42.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1360",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "太行药王谷",
+        "price": "68",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/06171bff5c3240b79eadbfab975a878e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1359",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "七步沟景区（4A）",
+        "price": "80",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票1次,持卡需付10元保险费",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/37c34578154e4888806a1e7a75a3553c.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1369",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "东太行旅游景区",
+        "price": "140",
+        "dates": [
+            "2019.10.8",
+            "2019.11.30",
+            "2020.3.1",
+            "2020.3.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.8-2019.11.30、2020.3.1-2020.3.31",
+        "notice": "免门票不限次（不含景区二次消费）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/cc34bbe8b0b54e36870074acd8e1cb2a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1368",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "康业温泉(4A)",
+        "price": "138",
+        "dates": [
+            "2019.10.1",
+            "2019.11.30",
+            "2020.3.1",
+            "2020.4.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2019.11.30、2020.3.1-2020.4.30",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/117fd34f87004cb9a13b4a8a2172690b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1236",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "广府古城墙景区（5A）",
+        "price": "25",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b5437905cda04a4eba51366f39d46551.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1121",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "古石龙(3A)",
+        "price": "40",
+        "dates": [
+            "2019.9.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.12.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/77c81797007e42c9890333fc2f714caa.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1345",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "太行五指山(4A)",
+        "price": "70",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，需交保险费5元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/106006a9939943f684e75c58ec2c2881.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1123",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "响堂山风景名胜区(4A)",
+        "price": "60",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次，需交保险费10元/人，含一段小交通 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/45075e9888e64c69bd3aeb99e5208476.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1233",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "圣井岗(3A)",
+        "price": "15",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a218165a349b4dcb8dc65489213510c0.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1234",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "山底抗日地道遗址",
+        "price": "50",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次，需交保险费10元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a38f03891a22466fb46bf8d9ee7774e2.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1235",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "聚龙山莲花洞(3A)",
+        "price": "40",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "special": true,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f5eab4234c764e6c8d18e4ab857c7606.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1346",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "南响堂山石窟（4A）",
+        "price": "15",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/679df9f4f7c1415b9dce437aa6007a72.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1347",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "铜雀三台遗址公园（3A）",
+        "price": "40",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/f524242893bc48558d953013db447c0e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1348",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "丛台公园(4A)",
+        "price": "5",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/447ff911676c4a4b8505e618c3fa4f6e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1349",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "十六沟(2A)",
+        "price": "50",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/adecbb59175d468b9cc52e8954d16419.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1326",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "香草湖文化产业园",
+        "price": "30",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次，国家法定节假日和活动期间无效。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/fb82687beafc409abb3cd1b4a8ef8e73.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1361",
+        "area": "邯郸",
+        "province": "河北"
+    },
+    {
+        "name": "天津盘山风景名胜区（5A）",
+        "price": "78",
+        "dates": [
+            "2019.11.1",
+            "2019.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.11.1-2019.12.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7849916944954013b4a5ae6e6b360d2f.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1188",
+        "area": "天津"
+    },
+    {
+        "name": "梨木台（4A）",
+        "price": "70",
+        "dates": null,
+        "dateTxt": "2020年4月、6月、9月",
+        "notice": "免门票1次（法定节假日期间不可用），摆渡车需自费，不含保险。其他月份享受通票优惠。 ",
+        "special": true,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/65d94eb30e1b4fb8b37f3bcf3d7df888.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1371",
+        "area": "天津"
+    },
+    {
+        "name": "天津社会山嘉佑温泉",
+        "price": "198",
+        "dates": [
+            "2019.10.1",
+            "2020.9.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2020.9.30",
+        "notice": "免门票1次，团队无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/be07c9d20c02466d853916e7a091a363.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1151",
+        "area": "天津"
+    },
+    {
+        "name": "中华曲苑相声会馆 (主题场馆)",
+        "price": "60",
+        "dates": [
+            "2019.11.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.11.1-2020.10.31",
+        "notice": "免门票1次，需在一卡通官方微信公众号预约成功后方可接待，约满为止。五一、十一假期期间无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9ec05eb42532451bbfc56ad341489f17.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1223",
+        "area": "天津"
+    },
+    {
+        "name": "金泰丽舍温泉",
+        "price": "138",
+        "dates": [
+            "2020.3.1",
+            "2020.6.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.1-2020.6.30",
+        "notice": "免门票1次，需在一卡通官方微信公众号预约成功后方可接待，约满为止。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/97f213eafa44417f9ea55149902cbdba.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1295",
+        "area": "天津"
+    },
+    {
+        "name": "静园(3A)",
+        "price": "20",
+        "dates": [
+            "2019.11.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.11.1-2020.10.31 ",
+        "notice": "免门票1次，法定节假日期间无效，周一至周日正常开馆(除夕当天闭馆)，每天9:00—17:30(17:00停止入场)。",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/3a55970f21ec440aa3bbf89772657645.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1216",
+        "area": "天津"
+    },
+    {
+        "name": "庆王府(2A)",
+        "price": "24",
+        "dates": [
+            "2019.9.1",
+            "2020.5.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.5.31",
+        "notice": "免门票1次，法定节假日期间无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/206bd72a13684435bdf172d4b96b3f9d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1211",
+        "area": "天津"
+    },
+    {
+        "name": "精武门.中华武林园（4A）",
+        "price": "60",
+        "dates": [
+            "2019.9.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.12.31",
+        "notice": "免门票不限次，春节庙会不可用",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b2263c979e17467fb93b14d18de62114.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1209",
+        "area": "天津"
+    },
+    {
+        "name": "郭家沟 (3A)",
+        "price": "30",
+        "dates": [
+            "2019.9.15",
+            "2019.10.25",
+            "2020.4.1",
+            "2020.10.25"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.15-2019.10.25  2020.4.1-2020.10.25",
+        "notice": "免门票不限次，需交保险费5元/人 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/8372f7dd92eb406a9f377fe6ae59560d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1042",
+        "area": "天津"
+    },
+    {
+        "name": "黑峪神秘谷(4A)",
+        "price": "65",
+        "dates": [
+            "2020.4.20",
+            "2020.10.20"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.20-2020.10.20",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b28dec10f8fd4312b423b73a4c532dc9.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1210",
+        "area": "天津"
+    },
+    {
+        "name": "尔宝瑞蜡像馆(主题场馆)",
+        "price": "128",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次,需交维护费10元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7634c5fbc58c49e58d346b8dff5bfd98.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1208",
+        "area": "天津"
+    },
+    {
+        "name": "口袋屋蹦床公园（静海店）(主题场馆)",
+        "price": "128",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": " 2019.9.1-2020.8.31",
+        "notice": "免门票1次，限1小时，超时自费，需交袜子钱10元/人 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/152d5495f11a4e6db2d47dbe790716a3.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1355",
+        "area": "天津"
+    },
+    {
+        "name": "石家大院(4A)",
+        "price": "25",
+        "dates": [
+            "2019.10.1",
+            "2020.5.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2020.5.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e9c2a9b6837045a3a89eedc7b8e05af0.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1212",
+        "area": "天津"
+    },
+    {
+        "name": "杨柳青古镇民俗文化馆",
+        "price": "20",
+        "dates": [
+            "2019.10.1",
+            "2020.5.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2020.5.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/42bdf834da5f4a65827257d73c9af095.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1213",
+        "area": "天津"
+    },
+    {
+        "name": "杨柳青年画馆",
+        "price": "20",
+        "dates": [
+            "2019.10.1",
+            "2020.5.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.10.1-2020.5.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e9380ba76f3c416bbd912d0a9d055b93.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1214",
+        "area": "天津"
+    },
+    {
+        "name": "天山海世界.米立方（4A）",
+        "price": "160",
+        "dates": [
+            "2020.1.1",
+            "2020.4.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.4.30",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/3dd0610aa71b474e94368d58baed733a.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1150",
+        "area": "天津"
+    },
+    {
+        "name": "宝成博物苑(4A)",
+        "price": "68",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，周一闭馆",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/4bd97e4083fa44b6825775add8c8955d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1080",
+        "area": "天津"
+    },
+    {
+        "name": "民国物语博物馆",
+        "price": "59",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/4c8c884bb29f4de7ba28c42738899035.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1215",
+        "area": "天津"
+    },
+    {
+        "name": "津溪桃源(3A)",
+        "price": "30",
+        "dates": [
+            "2020.4.15",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.15-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/93bd071a26474f648fb0654cd949d9ed.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1221",
+        "area": "天津"
+    },
+    {
+        "name": "小站练兵园(3A)",
+        "price": "50",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，周一闭馆、春节假间闭馆",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/4d4b69ba007f4c64968a28f5b86ec966.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1219",
+        "area": "天津"
+    },
+    {
+        "name": "56个民族非遗文化保护传承中心 (3A)",
+        "price": "100",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，周一闭馆，10人以上团队需提前一周预约 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9e6a4e2eacc14a9ea41ed49fc7248e1d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1220",
+        "area": "天津"
+    },
+    {
+        "name": "时代记忆纪念馆 (3A)",
+        "price": "100",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，周一闭馆，10人以上团队需提前预约 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/ea09dba46e784fb6a3ffbd05aacf4723.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1222",
+        "area": "天津"
+    },
+    {
+        "name": "南湖.绿博园(4A)",
+        "price": "50",
+        "dates": [
+            "2020.5.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.31",
+        "notice": "免门票3次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/a3c096643c384a24b3b0d5c28a6c54af.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1224",
+        "area": "天津"
+    },
+    {
+        "name": "南湖.鹿园(4A)",
+        "price": "20",
+        "dates": [
+            "2020.5.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.31",
+        "notice": "免门票3次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/fcca46cf0bbf468ea6f5f21c36a42d79.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1225",
+        "area": "天津"
+    },
+    {
+        "name": "水高庄园(4A)",
+        "price": "50",
+        "dates": [
+            "2019.9.1",
+            "2020.8.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2020.8.31",
+        "notice": "免门票不限次，重大活动期间无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7e2f2bbcaa454a3ebf4ec27d4ac0c55d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1238",
+        "area": "天津"
+    },
+    {
+        "name": "晶宝温泉农庄(2A)",
+        "price": "50",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，30人以上无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/51b6b8927b664f00964f156d58eaefb3.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1218",
+        "area": "天津"
+    },
+    {
+        "name": "格格府典藏博物馆 (3A)",
+        "price": "10",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1af474f6d8d04aeaaf4e88879bbac2be.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1217",
+        "area": "天津"
+    },
+    {
+        "name": "青龙湖水上游乐园(3A)",
+        "price": "50",
+        "dates": [
+            "2019.9.1",
+            "2019.10.31",
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.1-2019.10.31、2020.4.1-2020.10.31",
+        "notice": "免门票1次，送3张代金券",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/e223bc33bda447f2b39b2102a42ef62e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1112",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "孤山寨大峡谷(4A)",
+        "price": "75",
+        "dates": [
+            "2020.3.15",
+            "2020.10.25"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.15-2020.10.25",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/394477b3225748be804bdc03e8e59673.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1062",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "百瑞谷(3A)",
+        "price": "80",
+        "dates": [
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.31",
+        "notice": "免门票不限次，小交通费需自理",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/de9e5badfe2b43d5bcc0b58e80fe021c.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1081",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "金祖山",
+        "price": "50",
+        "dates": [
+            "2020.3.15",
+            "2020.12.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.15-2020.12.15",
+        "notice": "免门票不限次，五一、十一假期期间持卡无效",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/cbb2ef22db8d459a816d9e7320b87c69.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1092",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "圣莲山(4A)",
+        "price": "60",
+        "dates": [
+            "2020.4.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/b5fd330e3d244b2cab92665bef9e94b0.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1100",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "乐佛山(4A)",
+        "price": "60",
+        "dates": [
+            "2020.4.1",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.10.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/cf4c87391403438eab188e247722d758.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1337",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "仙西山（玻璃栈道、溶洞、观光步道、雨林谷、少数民族演出）(3A)",
+        "price": "160",
+        "dates": [
+            "2019.9.15",
+            "2019.11.15",
+            "2020.3.15",
+            "2020.11.1"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2019.9.15-2019.11.15、2020.3.15-2020.11.1",
+        "notice": "免门票不限次，五一假期无效，需交保险费10元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/76fdc7f932444bc38dffa8381ae93f83.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1045",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "周口店北京人遗址博物(4A)",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票3次，周一闭馆，法定节假日期间持卡无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/946ce4d417734bc68dae35391d75d682.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1199",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "周口店北京人遗址公园 (4A)",
+        "price": "30",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票3次，周一闭馆，法定节假日期间持卡无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/097106674de0445982e88a439a02d135.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1200",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "云居寺(4A)",
+        "price": "40",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "（15:30停止检票）",
+        "dateTxt": "2020.1.1-2020.12.31（15:30停止检票）",
+        "notice": "免门票3次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/6f8f4a3379df4ed99f225b4ea5c53927.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1056",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "白草畔自然风景区（3A）",
+        "price": "40",
+        "dates": [
+            "2020.5.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.31",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/61e3020353fb4a7fb91aef1cd0fd354d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1166",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "月亮山（含玻璃栈道）",
+        "price": "20",
+        "dates": [
+            "2020.3.15",
+            "2020.11.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.15-2020.11.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/7a4206ff52ca41dcb3807668af766c1b.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1338",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "乐谷银滩 （含玻璃吊桥）（4A）",
+        "price": "90",
+        "dates": [
+            "2020.3.20",
+            "2020.10.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.20-2020.10.15",
+        "notice": "免门票1次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/0e55d1c3a39e4fa2a28bc5e24cf75152.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1288",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "聚龙湾（含玻璃栈道）(4A)",
+        "price": "40",
+        "dates": [
+            "2020.4.1",
+            "2020.9.30"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.1-2020.9.30",
+        "notice": "免门票1次 ，团队无效，法定节假日持卡无效 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/c542930e630f4455851a8a01794861a4.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1289",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "誓言玻璃栈道(3A)",
+        "price": "50",
+        "dates": [
+            "2020.5.1",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.1-2020.10.31",
+        "notice": "免门票不限次，栈道游览10元/人",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/3c5b8f7400c14a95ab590c69b67c26a3.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1290",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "霞云岭金水湖（含冰瀑）(3A)",
+        "price": "45",
+        "dates": [
+            "2020.1.1",
+            "2020.12.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.1.1-2020.12.31",
+        "notice": "免门票不限次，20人以上团队，需每人补差价20元 ",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/1319d87eefe34ae18fb7e8e0a883b831.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1291",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "七渡花果山景区",
+        "price": "40",
+        "dates": [
+            "2020.3.1",
+            "2020.11.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.3.1-2020.11.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/dfd9e6b420c545d0a15a72d6b75caa1d.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1183",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "上方山国家森林公园（3A）",
+        "price": "40",
+        "dates": [
+            "2020.4.16",
+            "2020.11.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.16-2020.11.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/da4fd4876cbf4f509486b550b695219e.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1074",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "云水洞景区(3A)",
+        "price": "30",
+        "dates": [
+            "2020.4.16",
+            "2020.11.15"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.4.16-2020.11.15",
+        "notice": "免门票不限次",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/9a4afd99eb8f43ff9d5b139065f46075.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1075",
+        "area": "房山",
+        "province": "北京"
+    },
+    {
+        "name": "东村花台自然风景区",
+        "price": "40",
+        "dates": [
+            "2020.5.4",
+            "2020.10.31"
+        ],
+        "dateNotce": "",
+        "dateTxt": "2020.5.4-2020.10.31",
+        "notice": "不限次（十一假期期间持卡无效）",
+        "special": false,
+        "imgUrl": "https://image-c.weimobwmc.com/saas-wxbiz/c84e2c7d5bec41869f1b80839abd38da.png",
+        "link": "http://zglynk.com/ITS/wechatPortalInfo/goAreaDetail.action?id=1364",
+        "area": "房山",
+        "province": "北京"
+    }
+]

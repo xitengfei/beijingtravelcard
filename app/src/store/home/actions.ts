@@ -10,6 +10,7 @@ import Scenic from '@/models/Scenic';
 // ===============================
 // Action Type
 // ===============================
+export const HOME_SET_YIKATONG_VERSION = 'HOME_SET_YIKATONG_VERSION'
 export const HOME_SET_YIKATONG_SCENICS = 'HOME_SET_YIKATONG_SCENICS'
 export const HOME_SET_YIKATONG_AREAS = 'HOME_SET_YIKATONG_AREAS'
 export const HOME_SET_FILTERING_STATE = 'HOME_SET_FILTERING_STATE'
@@ -19,25 +20,31 @@ export const HOME_SET_FILTERED_SCENICS = 'HOME_SET_FILTERED_SCENICS'
 // ===============================
 // Action Creator
 // ===============================
-export const fetchAreas = function(){
+export const setVersion = (version: string) => ({
+    type: HOME_SET_YIKATONG_VERSION,
+    payload: version
+})
+
+export const fetchAreas = function(forceUpdate = false){
     return async (dispatch: Redux.Dispatch, getState: () => RootState) => {
         const {homeStore} = getState();
-        if(homeStore.areas.length) return homeStore.areas;
+        const {areas, version}: Home = homeStore;
+        if(areas.length && !forceUpdate) return homeStore.areas;
 
-        const areas = await API.getAreas();
-        dispatch({
+        const newAreas = await API.getAreas(version);
+        return dispatch({
             type: HOME_SET_YIKATONG_AREAS,
-            payload: areas
+            payload: newAreas
         })
     }
 }
 
-export const fetchScenics = function(){
+export const fetchScenics = function(forceUpdate = false){
     return async (dispatch: Redux.Dispatch, getState: () => RootState) => {
-        const {scenics} = getState().homeStore;
-        if(scenics.length) return scenics;
+        const {scenics, version} = getState().homeStore;
+        if(scenics.length && !forceUpdate) return scenics;
 
-        let scenicsList = await API.getScenics();
+        let scenicsList = await API.getScenics(version);
         scenicsList = scenicsList.map((scenic: Scenic, index: number) => {
             scenic.id = index + 1 + '';
             scenic.periods = [];
@@ -97,6 +104,7 @@ export const applyFilters = (filters: Filters) => (dispatch: Redux.Dispatch, get
  * export all action creators
  */
 export default {
+    setVersion,
     fetchAreas,
     fetchScenics,
     setLoading,
@@ -108,8 +116,15 @@ export default {
 // ===============================
 type Action = {type: string, payload: any};
 export const ACTION_HANDLERS = {
-    [HOME_SET_YIKATONG_SCENICS]: (state: Home, {payload}: Action): Home => Object.assign({}, state, {scenics: payload}),
-    [HOME_SET_YIKATONG_AREAS]: (state: Home, {payload}: Action): Home => Object.assign({}, state, {areas: payload}),
+    [HOME_SET_YIKATONG_VERSION]: (state: Home, {payload}: Action): Home => {
+        return Object.assign({}, state, {version: payload});
+    },
+    [HOME_SET_YIKATONG_SCENICS]: (state: Home, {payload}: Action): Home => {
+        return Object.assign({}, state, {scenics: payload});
+    },
+    [HOME_SET_YIKATONG_AREAS]: (state: Home, {payload}: Action): Home => {
+        return Object.assign({}, state, {areas: payload});
+    },
     [HOME_SET_FILTERED_SCENICS]: (state: Home, {payload}: Action): Home => {
         return Object.assign({}, state, {filteredScenics: payload});
     },

@@ -1,14 +1,13 @@
 import React, { ReactNode } from 'react';
 import { Drawer, Button, DatePicker, List, Checkbox } from 'antd-mobile';
 import BtnCheckGroup from '@/components/BtnCheckGroup';
-import Area from '@/models/Area';
 import Filters from '@/models/Filters';
 import "./index.less";
 
 interface Props{
     children: ReactNode,
     title: string,
-    areas: Array<Area>,
+    areas: Array<string>,
     ref: React.RefObject<any>,
     applyFilters: (filters: Filters) => void
 }
@@ -91,7 +90,7 @@ export default class extends React.Component<Props, State>{
                     <p className="sub-title">选择区域</p>
                     <div className="areas-list">
                         <BtnCheckGroup 
-                            options={areas.map(area => ({code: area.name, name: area.name}))}
+                            options={areas.map(area => ({code: area, name: area}))}
                             checkedCodes={checkedAreaIds}
                             onChange={this.handleAreaChange}
                         />

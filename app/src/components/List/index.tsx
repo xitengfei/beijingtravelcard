@@ -27,7 +27,6 @@ List.Item = (props: Scenic) => {
             <div className="item-meta">
                 <span className="icon-id">{props.id}</span>
                 <h4 className="meta-title">
-                    {/* {props.link ? <Link to={`/scenic/${props.id}`}>{props.name}</Link> : props.name} */}
                     {props.link ?
                         <a href={props.link} target="_blank" rel="noopener noreferrer">{props.name}</a> :
                         props.name
@@ -40,7 +39,7 @@ List.Item = (props: Scenic) => {
             </div>
             <div className="item-content">
                 <div className="meta-line">
-                    <div className="time">时间段：{period}</div>
+                    <div className="time">接待时间：{period}</div>
                     <div className="limit">{props.limit}</div>
                 </div>
                 <div className="meta-line">
@@ -49,7 +48,7 @@ List.Item = (props: Scenic) => {
                 </div>
 
                 <p className="description">
-                    特别说明: {props.notice}
+                    持卡权益: {props.notice}
                 </p>
             </div>
         </div>

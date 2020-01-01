@@ -1,18 +1,18 @@
 import Server from './server';
 
 class API extends Server {
-    async getAreas() {
+    async getAreas(version = '2020') {
         try {
-            const result = await this.axios('get', `/json/areas.json`);
+            const result = await this.axios('get', `/json/${version}/areas.json`);
             return result;
         } catch (err) {
             throw err;
         }
     }
 
-    async getScenics() {
+    async getScenics(version = '2020') {
         try {
-            const result = await this.axios('get', `/json/scenics-2019.json`);
+            const result = await this.axios('get', `/json/${version}/scenics.json`);
             return result;
         } catch (err) {
             throw err;

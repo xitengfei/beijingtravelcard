@@ -7,8 +7,10 @@ import "./index.less";
 
 interface Props{
     title: string,
+    version: string,
     onRightClick(): void,
     onSearch(keyword: string): void,
+    setVersion(version: string): void,
 }
 
 interface State{
@@ -42,11 +44,14 @@ export default class extends React.Component<Props, State>{
     }
 
     handleMenuSelect = (node: any) => {
-        console.log('handleMenuSelect', node);
+        if(node.key !== this.props.version){
+            console.log('change to version: ', node.key);
+            this.props.setVersion(node.key);
+        }
     }
 
     render(){
-        const {title, onRightClick} = this.props;
+        const {title, version, onRightClick} = this.props;
         const {searchVisible, keyword} = this.state;
 
         return(
@@ -58,6 +63,7 @@ export default class extends React.Component<Props, State>{
                     icon={<img className="brand" src={Logo} alt="logo" />}
                     rightContent={
                         <Menu 
+                            activeKey={version}
                             onSelect={this.handleMenuSelect}
                         />
                     }

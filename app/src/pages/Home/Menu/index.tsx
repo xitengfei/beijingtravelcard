@@ -4,6 +4,7 @@ import { Popover, Icon } from 'antd-mobile';
 const Item = Popover.Item;
 
 interface Props{
+    activeKey: string,
     onSelect: (node: any) => void
 }
 
@@ -13,15 +14,15 @@ const Menu = function(props: Props){
             // mask
             // visible={this.state.visible}
             overlay={[
-              (<Item key="2019-general">2019版景区目录</Item>),
-              (<Item key="2020-general">2020普通版景区目录</Item>),
+              (<Item key="2019">2019版景区目录</Item>),
+              (<Item key="2020">2020普通版景区目录</Item>),
               (<Item key="2020-union">2020联合卡景区目录</Item>)
             ]}
             align={{
               overflow: { adjustY: 0, adjustX: 0 },
             }}
             // onVisibleChange={this.handleVisibleChange}
-            // onSelect={this.onSelect}
+            onSelect={props.onSelect}
           >
             <div 
                 style={{

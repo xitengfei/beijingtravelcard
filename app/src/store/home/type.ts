@@ -1,10 +1,10 @@
-import Area from '../../models/Area';
-import Scenic from '../../models/Scenic';
+import Scenic from '@/models/Scenic';
 
 export default interface Home{
     title: string,
-    areas: Array<Area>,
+    areas: Array<string>,
     scenics: Array<Scenic>,
     filteredScenics: Array<Scenic>, // scenics to show on list view
-    isLoading: false
+    isLoading: false,
+    version: string,
 }
