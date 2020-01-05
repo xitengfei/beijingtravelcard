@@ -3,9 +3,9 @@ import { Popover, Icon } from 'antd-mobile';
 
 const Item = Popover.Item;
 const versions = [
-    {key: '2019', name: '2019版景区目录'},
+    // {key: '2019', name: '2019版景区目录'},
     {key: '2020', name: '2020普通版景区目录'},
-    {key: '2020-union', name: '2020联合卡景区目录'},
+    // {key: '2020-union', name: '2020联合卡景区目录'},
 ]
 
 interface Props{

@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { ListView, ActivityIndicator } from 'antd-mobile';
 import NavBar from "./Nav";
 import SideBar from "./SideBar";
-import List from "@/components/List";
+import List from "@/components/ScenicList";
 import homeActions from "@/store/home/actions";
 import Scenic from '@/models/Scenic';
 // types
@@ -130,7 +130,7 @@ class Home extends React.Component<Props, State> {
 
     renderRow = (rowData: any, sectionId: any, rowId: any) => {
         return (
-            <div key={rowId} className="area-item">
+            <div key={rowId} className="scenic-item">
                 <List.Item {...rowData} />
             </div>
         )
@@ -164,7 +164,7 @@ class Home extends React.Component<Props, State> {
                             style={{height, overflow:'auto'}}
                             dataSource={renderData}
                             renderRow={this.renderRow}
-                            className="am-list area-list xui-list"
+                            className="am-list scenic-list"
                             pageSize={5}
                             onEndReached={this.onEndReached}
                             onEndReachedThreshold={20}

@@ -5,8 +5,10 @@ export default interface Scenic{
     link: string,
     dates: Array<string>,
     periods: Array<string[]>,
+    dateTxt: string,
     level: string,
     limit: string,
     notice: string,
-    price: string
+    price: string,
+    imgUrl: string,
 }

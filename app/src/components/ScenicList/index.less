@@ -1,0 +1,87 @@
+.scenic-list{
+    width: 100%;
+    padding-top: 15px;
+
+    .scenic-list-item{
+        background: #fff;
+        text-align: left;
+        padding: 10px 0;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .item-title{
+        display: flex;
+        align-items: center;
+        height: 32px;
+        padding: 0 12px;
+        margin-bottom: 8px;
+
+        h3{
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0;
+            flex: 1;
+        }
+        .location{
+            padding-right: 8px;
+            img{
+                height: 18px;
+            }
+        }
+    }
+
+    .item-main{
+        display: flex;
+        padding: 0 12px;
+
+        .item-meta{
+            flex: 1;
+            font-size: 14px;
+            line-height: 1.5em;
+
+            .meta-line{
+                margin-bottom: 8px;
+                label{
+                    color: red;
+                    width: 70px;
+                    display: inline-block;
+                }
+            }
+        }
+
+        .item-thumb{
+            width: 120px;
+            height: 120px;
+
+            .image{
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+            }
+        }
+    }
+
+    .item-area{
+        position: absolute;
+        bottom: 0;
+        height: 1px;
+        background: #99CCCC;
+        z-index: 1;
+        width: 100%;
+
+        .area-name{
+            position: absolute;
+            padding: 4px;
+            text-align: center;
+            width: 77px;
+            box-sizing: border-box;
+            background: #99CCCC;
+            color: #fff;
+            font-size: 14px;
+            right: 12px;
+            bottom: 0;
+            border-radius: 10px 0 0 0;
+        }
+    }
+}
