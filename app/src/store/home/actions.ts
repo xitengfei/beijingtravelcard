@@ -25,6 +25,7 @@ export const setVersion = (version: string) => ({
     payload: version
 })
 
+
 export const fetchAreas = function(forceUpdate = false){
     return async (dispatch: Redux.Dispatch, getState: () => RootState) => {
         const {homeStore} = getState();
